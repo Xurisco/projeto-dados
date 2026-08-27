@@ -1,0 +1,51 @@
+product_id,name,category,total_orders,total_quantity,total_revenue
+1,Mochila Esportiva,esportes,8,17,5971.59
+2,Teclado Mecânico,informatica,16,48,28419.84
+3,Jogo de Panelas,casa,7,16,14265.28
+4,Calça Jeans,vestuario,8,24,5244.72
+5,Jogo de Panelas,casa,13,37,18878.51
+6,Mochila Esportiva,esportes,3,9,1446.39
+7,Camiseta Básica,vestuario,12,37,3698.89
+8,Livro de História,livros,10,32,1745.92
+9,Camiseta Básica,vestuario,6,19,1007.95
+10,Moletom,vestuario,11,32,10120.64
+11,Monitor 24 Polegadas,informatica,9,27,58951.8
+12,Aspirador de Pó,casa,10,26,20998.38
+13,Fone Bluetooth,eletronicos,5,16,7339.04
+14,Bola de Futebol,esportes,8,23,4171.05
+15,Calça Jeans,vestuario,11,35,8810.55
+16,Bicicleta,esportes,9,33,127625.52
+17,Livro de Tecnologia,livros,11,39,2818.53
+18,Livro de Negócios,livros,14,51,4421.7
+19,Livro de Tecnologia,livros,10,26,3030.56
+20,Jaqueta,vestuario,7,18,4489.38
+21,Bicicleta,esportes,12,33,113616.69
+22,Camiseta Básica,vestuario,8,25,1466.0
+23,Jogo de Panelas,casa,9,23,11064.38
+24,Monitor 24 Polegadas,informatica,8,26,43777.24
+25,Bicicleta,esportes,13,38,112472.02
+26,Livro de Negócios,livros,8,20,2850.6
+27,Moletom,vestuario,13,41,14575.09
+28,Tênis Esportivo,esportes,9,21,4976.79
+29,Livro de Ficção,livros,13,40,2548.0
+30,Liquidificador,casa,11,36,14914.44
+31,Webcam Full HD,informatica,13,46,31017.34
+32,Livro de Ciência,livros,5,15,2461.35
+33,Mochila Esportiva,esportes,13,41,14368.45
+34,Fone Bluetooth,eletronicos,8,20,2464.2
+35,Livro de História,livros,7,16,826.24
+36,Smart TV 50 Polegadas,eletronicos,15,47,143032.75
+37,Smartphone Samsung Galaxy,eletronicos,12,36,109682.28
+38,Moletom,vestuario,10,24,2701.2
+39,Jaqueta,vestuario,8,27,14822.73
+40,Livro de Ficção,livros,6,22,753.72
+41,Calça Jeans,vestuario,16,40,5518.8
+42,Webcam Full HD,informatica,7,25,14352.75
+43,Bola de Futebol,esportes,9,29,4193.4
+44,Monitor 24 Polegadas,informatica,7,20,42129.0
+45,Fone Bluetooth,eletronicos,15,48,33169.92
+46,Air Fryer,casa,13,39,20705.49
+47,Tênis Casual,vestuario,14,50,15129.5
+48,Fone Bluetooth,eletronicos,9,25,6329.5
+49,Moletom,vestuario,18,54,7561.08
+50,Notebook Lenovo,informatica,3,4,27169.44

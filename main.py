@@ -1,5 +1,6 @@
 from src.pipeline.initial_load import run_initial_load
 from src.pipeline.silver_load import run_silver_load
+from src.pipeline.gold_load import run_gold_load
 
 
 if __name__ == "__main__":
@@ -10,3 +11,4 @@ if __name__ == "__main__":
     )
 
     run_silver_load()
+    run_gold_load()

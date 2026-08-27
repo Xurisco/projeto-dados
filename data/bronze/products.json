@@ -1,352 +1,352 @@
 [
   {
     "id": 1,
-    "name": "A vantagem de avançar direto da fonte",
-    "category": "Eletronicos",
-    "price": 2403.81,
-    "stock": 185
+    "name": "Mochila Esportiva",
+    "category": "esportes",
+    "price": 351.27,
+    "stock": 157
   },
   {
     "id": 2,
-    "name": "A liberdade de evoluir mais facilmente",
-    "category": "Eletronicos",
-    "price": 840.51,
-    "stock": 2
+    "name": "Teclado Mecânico",
+    "category": "informatica",
+    "price": 592.08,
+    "stock": 242
   },
   {
     "id": 3,
-    "name": "A arte de mudar simplesmente",
-    "category": "Eletronicos",
-    "price": 539.53,
-    "stock": 500
+    "name": "Jogo de Panelas",
+    "category": "casa",
+    "price": 891.58,
+    "stock": 209
   },
   {
     "id": 4,
-    "name": "O prazer de avançar com toda a tranquilidade",
-    "category": "Vestuario",
-    "price": 3254.57,
-    "stock": 321
+    "name": "Calça Jeans",
+    "category": "vestuario",
+    "price": 218.53,
+    "stock": 351
   },
   {
     "id": 5,
-    "name": "A liberdade de conseguir mais rapidamente",
-    "category": "Vestuario",
-    "price": 1199.75,
-    "stock": 454
+    "name": "Jogo de Panelas",
+    "category": "casa",
+    "price": 510.23,
+    "stock": 401
   },
   {
     "id": 6,
-    "name": "A simplicidade de mudar antes de tudo",
-    "category": "Informatica",
-    "price": 4623.79,
-    "stock": 491
+    "name": "Mochila Esportiva",
+    "category": "esportes",
+    "price": 160.71,
+    "stock": 119
   },
   {
     "id": 7,
-    "name": "A liberdade de conseguir mais facilmente",
-    "category": "Casa",
-    "price": 133.84,
-    "stock": 319
+    "name": "Camiseta Básica",
+    "category": "vestuario",
+    "price": 99.97,
+    "stock": 251
   },
   {
     "id": 8,
-    "name": "A simplicidade de realizar seus sonhos simplesmente",
-    "category": "Eletronicos",
-    "price": 625.92,
-    "stock": 318
+    "name": "Livro de História",
+    "category": "livros",
+    "price": 54.56,
+    "stock": 484
   },
   {
     "id": 9,
-    "name": "A arte de conseguir antes de tudo",
-    "category": "Informatica",
-    "price": 4927.33,
-    "stock": 364
+    "name": "Camiseta Básica",
+    "category": "vestuario",
+    "price": 53.05,
+    "stock": 53
   },
   {
     "id": 10,
-    "name": "A vantagem de conseguir mais rapidamente",
-    "category": "Eletronicos",
-    "price": 1783.59,
-    "stock": 261
+    "name": "Moletom",
+    "category": "vestuario",
+    "price": 316.27,
+    "stock": 425
   },
   {
     "id": 11,
-    "name": "A vantagem de inovar com força total",
-    "category": "Informatica",
-    "price": 2267.95,
-    "stock": 47
+    "name": "Monitor 24 Polegadas",
+    "category": "informatica",
+    "price": 2183.4,
+    "stock": 176
   },
   {
     "id": 12,
-    "name": "A possibilidade de mudar simplesmente",
-    "category": "Eletronicos",
-    "price": 2009.97,
-    "stock": 102
+    "name": "Aspirador de Pó",
+    "category": "casa",
+    "price": 807.63,
+    "stock": 406
   },
   {
     "id": 13,
-    "name": "A liberdade de conseguir com confiança",
-    "category": "Esportes",
-    "price": 676.26,
-    "stock": 366
+    "name": "Fone Bluetooth",
+    "category": "eletronicos",
+    "price": 458.69,
+    "stock": 489
   },
   {
     "id": 14,
-    "name": "O direito de conseguir direto da fonte",
-    "category": "Informatica",
-    "price": 1132.19,
-    "stock": 439
+    "name": "Bola de Futebol",
+    "category": "esportes",
+    "price": 181.35,
+    "stock": 488
   },
   {
     "id": 15,
-    "name": "A arte de ganhar direto da fonte",
-    "category": "Vestuario",
-    "price": 378.18,
-    "stock": 146
+    "name": "Calça Jeans",
+    "category": "vestuario",
+    "price": 251.73,
+    "stock": 252
   },
   {
     "id": 16,
-    "name": "A segurança de atingir seus objetivos com força total",
-    "category": "Casa",
-    "price": 3613.23,
-    "stock": 421
+    "name": "Bicicleta",
+    "category": "esportes",
+    "price": 3867.44,
+    "stock": 268
   },
   {
     "id": 17,
-    "name": "A liberdade de mudar mais facilmente",
-    "category": "Vestuario",
-    "price": 4060.47,
-    "stock": 257
+    "name": "Livro de Tecnologia",
+    "category": "livros",
+    "price": 72.27,
+    "stock": 11
   },
   {
     "id": 18,
-    "name": "A arte de avançar naturalmente",
-    "category": "Casa",
-    "price": 1908.2,
-    "stock": 156
+    "name": "Livro de Negócios",
+    "category": "livros",
+    "price": 86.7,
+    "stock": 69
   },
   {
     "id": 19,
-    "name": "A arte de inovar com toda a tranquilidade",
-    "category": "Informatica",
-    "price": 4686.43,
-    "stock": 487
+    "name": "Livro de Tecnologia",
+    "category": "livros",
+    "price": 116.56,
+    "stock": 34
   },
   {
     "id": 20,
-    "name": "A arte de ganhar simplesmente",
-    "category": "Informatica",
-    "price": 3332.34,
-    "stock": 292
+    "name": "Jaqueta",
+    "category": "vestuario",
+    "price": 249.41,
+    "stock": 314
   },
   {
     "id": 21,
-    "name": "O conforto de inovar de maneira eficaz",
-    "category": "Livros",
-    "price": 2883.8,
-    "stock": 464
+    "name": "Bicicleta",
+    "category": "esportes",
+    "price": 3442.93,
+    "stock": 430
   },
   {
     "id": 22,
-    "name": "A certeza de inovar sem preocupação",
-    "category": "Informatica",
-    "price": 1083.26,
-    "stock": 366
+    "name": "Camiseta Básica",
+    "category": "vestuario",
+    "price": 58.64,
+    "stock": 193
   },
   {
     "id": 23,
-    "name": "A arte de realizar seus sonhos mais rapidamente",
-    "category": "Vestuario",
-    "price": 4974.41,
-    "stock": 148
+    "name": "Jogo de Panelas",
+    "category": "casa",
+    "price": 481.06,
+    "stock": 450
   },
   {
     "id": 24,
-    "name": "O direito de avançar sem preocupação",
-    "category": "Vestuario",
-    "price": 3859.23,
-    "stock": 187
+    "name": "Monitor 24 Polegadas",
+    "category": "informatica",
+    "price": 1683.74,
+    "stock": 295
   },
   {
     "id": 25,
-    "name": "A arte de inovar naturalmente",
-    "category": "Eletronicos",
-    "price": 3454.73,
+    "name": "Bicicleta",
+    "category": "esportes",
+    "price": 2959.79,
     "stock": 300
   },
   {
     "id": 26,
-    "name": "O poder de atingir seus objetivos sem preocupação",
-    "category": "Esportes",
-    "price": 4341.69,
-    "stock": 44
+    "name": "Livro de Negócios",
+    "category": "livros",
+    "price": 142.53,
+    "stock": 356
   },
   {
     "id": 27,
-    "name": "O direito de conseguir antes de tudo",
-    "category": "Esportes",
-    "price": 4884.79,
-    "stock": 36
+    "name": "Moletom",
+    "category": "vestuario",
+    "price": 355.49,
+    "stock": 206
   },
   {
     "id": 28,
-    "name": "A liberdade de inovar naturalmente",
-    "category": "Eletronicos",
-    "price": 1537.17,
+    "name": "Tênis Esportivo",
+    "category": "esportes",
+    "price": 236.99,
     "stock": 442
   },
   {
     "id": 29,
-    "name": "O poder de inovar com confiança",
-    "category": "Livros",
-    "price": 1662.03,
-    "stock": 99
+    "name": "Livro de Ficção",
+    "category": "livros",
+    "price": 63.7,
+    "stock": 134
   },
   {
     "id": 30,
-    "name": "O conforto de conseguir sem preocupação",
-    "category": "Vestuario",
-    "price": 585.44,
-    "stock": 48
+    "name": "Liquidificador",
+    "category": "casa",
+    "price": 414.29,
+    "stock": 406
   },
   {
     "id": 31,
-    "name": "A possibilidade de realizar seus sonhos em estado puro",
-    "category": "Casa",
-    "price": 891.18,
-    "stock": 45
+    "name": "Webcam Full HD",
+    "category": "informatica",
+    "price": 674.29,
+    "stock": 2
   },
   {
     "id": 32,
-    "name": "A arte de conseguir naturalmente",
-    "category": "Eletronicos",
-    "price": 2443.3,
-    "stock": 199
+    "name": "Livro de Ciência",
+    "category": "livros",
+    "price": 164.09,
+    "stock": 151
   },
   {
     "id": 33,
-    "name": "A arte de ganhar em estado puro",
-    "category": "Esportes",
-    "price": 2558.61,
-    "stock": 223
+    "name": "Mochila Esportiva",
+    "category": "esportes",
+    "price": 350.45,
+    "stock": 386
   },
   {
     "id": 34,
-    "name": "A certeza de inovar de maneira eficaz",
-    "category": "Esportes",
-    "price": 4114.48,
-    "stock": 305
+    "name": "Fone Bluetooth",
+    "category": "eletronicos",
+    "price": 123.21,
+    "stock": 336
   },
   {
     "id": 35,
-    "name": "O direito de inovar com toda a tranquilidade",
-    "category": "Informatica",
-    "price": 4129.24,
-    "stock": 354
+    "name": "Livro de História",
+    "category": "livros",
+    "price": 51.64,
+    "stock": 32
   },
   {
     "id": 36,
-    "name": "A arte de mudar direto da fonte",
-    "category": "Vestuario",
-    "price": 529.6,
-    "stock": 327
+    "name": "Smart TV 50 Polegadas",
+    "category": "eletronicos",
+    "price": 3043.25,
+    "stock": 468
   },
   {
     "id": 37,
-    "name": "A liberdade de mudar com toda a tranquilidade",
-    "category": "Eletronicos",
-    "price": 2794.56,
-    "stock": 205
+    "name": "Smartphone Samsung Galaxy",
+    "category": "eletronicos",
+    "price": 3046.73,
+    "stock": 474
   },
   {
     "id": 38,
-    "name": "A certeza de realizar seus sonhos simplesmente",
-    "category": "Informatica",
-    "price": 4358.38,
-    "stock": 204
+    "name": "Moletom",
+    "category": "vestuario",
+    "price": 112.55,
+    "stock": 12
   },
   {
     "id": 39,
-    "name": "A liberdade de avançar direto da fonte",
-    "category": "Eletronicos",
-    "price": 2251.04,
-    "stock": 272
+    "name": "Jaqueta",
+    "category": "vestuario",
+    "price": 548.99,
+    "stock": 449
   },
   {
     "id": 40,
-    "name": "A possibilidade de conseguir de maneira eficaz",
-    "category": "Esportes",
-    "price": 327.11,
-    "stock": 141
+    "name": "Livro de Ficção",
+    "category": "livros",
+    "price": 34.26,
+    "stock": 299
   },
   {
     "id": 41,
-    "name": "O prazer de atingir seus objetivos mais facilmente",
-    "category": "Casa",
-    "price": 3052.89,
-    "stock": 430
+    "name": "Calça Jeans",
+    "category": "vestuario",
+    "price": 137.97,
+    "stock": 470
   },
   {
     "id": 42,
-    "name": "O poder de atingir seus objetivos naturalmente",
-    "category": "Eletronicos",
-    "price": 3267.8,
-    "stock": 371
+    "name": "Webcam Full HD",
+    "category": "informatica",
+    "price": 574.11,
+    "stock": 192
   },
   {
     "id": 43,
-    "name": "O direito de ganhar com força total",
-    "category": "Informatica",
-    "price": 1712.19,
-    "stock": 477
+    "name": "Bola de Futebol",
+    "category": "esportes",
+    "price": 144.6,
+    "stock": 300
   },
   {
     "id": 44,
-    "name": "A simplicidade de evoluir com força total",
-    "category": "Vestuario",
-    "price": 2724.18,
-    "stock": 335
+    "name": "Monitor 24 Polegadas",
+    "category": "informatica",
+    "price": 2106.45,
+    "stock": 187
   },
   {
     "id": 45,
-    "name": "A arte de atingir seus objetivos com força total",
-    "category": "Livros",
-    "price": 3058.86,
-    "stock": 333
+    "name": "Fone Bluetooth",
+    "category": "eletronicos",
+    "price": 691.04,
+    "stock": 284
   },
   {
     "id": 46,
-    "name": "A liberdade de ganhar sem preocupação",
-    "category": "Vestuario",
-    "price": 4313.64,
-    "stock": 267
+    "name": "Air Fryer",
+    "category": "casa",
+    "price": 530.91,
+    "stock": 83
   },
   {
     "id": 47,
-    "name": "O poder de realizar seus sonhos naturalmente",
-    "category": "Casa",
-    "price": 29.24,
-    "stock": 270
+    "name": "Tênis Casual",
+    "category": "vestuario",
+    "price": 302.59,
+    "stock": 151
   },
   {
     "id": 48,
-    "name": "A arte de conseguir direto da fonte",
-    "category": "Informatica",
-    "price": 3026.93,
-    "stock": 79
+    "name": "Fone Bluetooth",
+    "category": "eletronicos",
+    "price": 253.18,
+    "stock": 167
   },
   {
     "id": 49,
-    "name": "A vantagem de evoluir com força total",
-    "category": "Livros",
-    "price": 1074.82,
-    "stock": 25
+    "name": "Moletom",
+    "category": "vestuario",
+    "price": 140.02,
+    "stock": 73
   },
   {
     "id": 50,
-    "name": "A simplicidade de atingir seus objetivos com confiança",
-    "category": "Vestuario",
-    "price": 284.82,
-    "stock": 227
+    "name": "Notebook Lenovo",
+    "category": "informatica",
+    "price": 6792.36,
+    "stock": 494
   }
 ]
