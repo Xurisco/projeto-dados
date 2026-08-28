@@ -1258,5 +1258,75 @@
     "category": "eletronicos",
     "price": 2112.86,
     "stock": 252
+  },
+  {
+    "id": 131,
+    "name": "Aspirador de Pó",
+    "category": "casa",
+    "price": 550.29,
+    "stock": 106
+  },
+  {
+    "id": 132,
+    "name": "Calça Jeans",
+    "category": "vestuario",
+    "price": 158.4,
+    "stock": 182
+  },
+  {
+    "id": 133,
+    "name": "Notebook Lenovo",
+    "category": "informatica",
+    "price": 6484.0,
+    "stock": 51
+  },
+  {
+    "id": 134,
+    "name": "Webcam Full HD",
+    "category": "informatica",
+    "price": 232.76,
+    "stock": 123
+  },
+  {
+    "id": 135,
+    "name": "Moletom",
+    "category": "vestuario",
+    "price": 192.86,
+    "stock": 446
+  },
+  {
+    "id": 136,
+    "name": "Mochila Esportiva",
+    "category": "esportes",
+    "price": 481.25,
+    "stock": 424
+  },
+  {
+    "id": 137,
+    "name": "Smartwatch",
+    "category": "eletronicos",
+    "price": 469.72,
+    "stock": 464
+  },
+  {
+    "id": 138,
+    "name": "Tênis Casual",
+    "category": "vestuario",
+    "price": 522.36,
+    "stock": 246
+  },
+  {
+    "id": 139,
+    "name": "Mouse Logitech",
+    "category": "informatica",
+    "price": 224.9,
+    "stock": 56
+  },
+  {
+    "id": 140,
+    "name": "Mouse Logitech",
+    "category": "informatica",
+    "price": 176.55,
+    "stock": 107
   }
 ]

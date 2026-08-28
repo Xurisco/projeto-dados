@@ -1,8 +1,10 @@
+import time
+
 from src.config import PIPELINE_INTERVAL
+from src.logger import logger
 from src.pipeline.bronze_pipeline import BronzePipeline
 from src.pipeline.silver_pipeline import SilverPipeline
 from src.pipeline.gold_pipeline import GoldPipeline
-import time
 
 
 class Pipeline:
@@ -14,22 +16,30 @@ class Pipeline:
         self.gold = GoldPipeline()
 
     def run_once(self) -> None:
-        print("\nIniciando pipeline...")
+        logger.info("Iniciando pipeline.")
 
-        self.bronze.run()
-        self.silver.run()
-        self.gold.run()
+        try:
+            self.bronze.run()
+            self.silver.run()
+            self.gold.run()
 
-        print("Pipeline concluído.")
+            logger.info("Pipeline concluído.")
+
+        except Exception:
+            logger.exception("Erro durante a execução do pipeline.")
 
     def run_forever(self) -> None:
         while True:
             try:
                 self.run_once()
 
-                print(f"Aguardando {self.interval} segundos...")
+                logger.info(
+                    "Aguardando %s segundos.",
+                    self.interval,
+                )
+
                 time.sleep(self.interval)
 
             except KeyboardInterrupt:
-                print("\nPipeline encerrado.")
+                logger.info("Pipeline encerrado.")
                 break
