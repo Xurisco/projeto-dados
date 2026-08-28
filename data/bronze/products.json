@@ -1188,5 +1188,75 @@
     "category": "casa",
     "price": 685.89,
     "stock": 238
+  },
+  {
+    "id": 121,
+    "name": "Livro de Ciência",
+    "category": "livros",
+    "price": 57.25,
+    "stock": 205
+  },
+  {
+    "id": 122,
+    "name": "Livro de História",
+    "category": "livros",
+    "price": 85.58,
+    "stock": 355
+  },
+  {
+    "id": 123,
+    "name": "Jogo de Panelas",
+    "category": "casa",
+    "price": 888.34,
+    "stock": 394
+  },
+  {
+    "id": 124,
+    "name": "Air Fryer",
+    "category": "casa",
+    "price": 539.7,
+    "stock": 59
+  },
+  {
+    "id": 125,
+    "name": "Livro de Ficção",
+    "category": "livros",
+    "price": 48.03,
+    "stock": 141
+  },
+  {
+    "id": 126,
+    "name": "Livro de Ficção",
+    "category": "livros",
+    "price": 31.66,
+    "stock": 465
+  },
+  {
+    "id": 127,
+    "name": "Livro de História",
+    "category": "livros",
+    "price": 87.66,
+    "stock": 276
+  },
+  {
+    "id": 128,
+    "name": "Jaqueta",
+    "category": "vestuario",
+    "price": 161.34,
+    "stock": 455
+  },
+  {
+    "id": 129,
+    "name": "Fone Bluetooth",
+    "category": "eletronicos",
+    "price": 144.53,
+    "stock": 43
+  },
+  {
+    "id": 130,
+    "name": "Smartphone Samsung Galaxy",
+    "category": "eletronicos",
+    "price": 2112.86,
+    "stock": 252
   }
 ]
