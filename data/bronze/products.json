@@ -3288,5 +3288,65 @@
     "category": "livros",
     "price": 36.56,
     "stock": 159
+  },
+  {
+    "id": 421,
+    "sku": "MOD-PUM-0421",
+    "name": "Puma Tênis Casual Court",
+    "category": "Moda & Acessórios",
+    "subcategory": "Calçados",
+    "brand": "Puma",
+    "cost_price": 589.33,
+    "price": 1104.86,
+    "stock_quantity": 49,
+    "rating": 3.9
+  },
+  {
+    "id": 422,
+    "sku": "INF-DEL-0422",
+    "name": "Dell Notebook Gamer",
+    "category": "Informática",
+    "subcategory": "Notebooks",
+    "brand": "Dell",
+    "cost_price": 5720.08,
+    "price": 11180.44,
+    "stock_quantity": 133,
+    "rating": 4.1
+  },
+  {
+    "id": 423,
+    "sku": "INF-DEL-0423",
+    "name": "Dell MacBook Air M2",
+    "category": "Informática",
+    "subcategory": "Notebooks",
+    "brand": "Dell",
+    "cost_price": 2643.51,
+    "price": 5771.2,
+    "stock_quantity": 230,
+    "rating": 4.2
+  },
+  {
+    "id": 424,
+    "sku": "INF-AOC-0424",
+    "name": "AOC Monitor Gamer 144Hz",
+    "category": "Informática",
+    "subcategory": "Monitores",
+    "brand": "AOC",
+    "cost_price": 1982.44,
+    "price": 3001.54,
+    "stock_quantity": 205,
+    "rating": 5.0
+  },
+  {
+    "id": 425,
+    "sku": "ELE-SAM-0425",
+    "name": "Samsung iPhone 15 Pro",
+    "category": "Eletrônicos",
+    "subcategory": "Smartphones",
+    "brand": "Samsung",
+    "cost_price": 2130.72,
+    "price": 5196.32,
+    "stock_quantity": 242,
+    "rating": 4.4
   }
 ]
