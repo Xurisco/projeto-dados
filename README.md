@@ -1,4 +1,4 @@
-# 🚀 E-Commerce Data Lakehouse & Executive Analytics
+# E-Commerce Data Lakehouse & Executive Analytics
 
 ![Python](https://img.shields.io/badge/Python-3.14+-3776ab?style=flat-square&logo=python&logoColor=white)
 ![Poetry](https://img.shields.io/badge/Poetry-60A5FA?style=flat-square&logo=poetry&logoColor=white)
@@ -10,14 +10,14 @@
 
 ---
 
-## 📋 Visão Executiva
+## 📋 Contextualização
 
 No cenário competitivo do e-commerce, painéis estáticos e relatórios descritivos não acompanham o ritmo das decisões operacionais. Este projeto implementa uma **arquitetura end-to-end** de pipeline ETL contínuo acoplado a um dashboard analítico que transforma dados brutos em **inteligência de negócio preditiva e prescritiva**.
 
 ### Problemas de Negócio Resolvidos
 
 **🚨 Ruptura de Estoque (Out-of-Stock)**
-- O motor de análise cruza volume de vendas em tempo real com níveis de inventário, gerando alertas automáticos quando SKUs críticos caem abaixo de 15 unidades. Isto reduz perda de vendas e melhora fill rate operacional.
+- O motor de análise cruza volume de vendas em tempo real com níveis de inventário, gerando alertas automáticos quando os produtos caem abaixo de 15 unidades. Isto reduz perda de vendas e melhora fill rate operacional.
 
 **📉 Erosão de Margem Bruta**
 - Identifica automaticamente produtos com alto faturamento operando em margens insustentáveis (< 15%), permitindo intervenção imediata na precificação ou negociação com fornecedores antes do prejuízo.
@@ -27,7 +27,7 @@ No cenário competitivo do e-commerce, painéis estáticos e relatórios descrit
 
 ### Valor da Engenharia
 
-O sistema foi construído com **separação rigorosa de responsabilidades** (Clean Architecture), garantindo resiliência mesmo sob falhas. Se as camadas transacionais (Bronze/Silver) falharem, o painel isola o erro e continua entregando os KPIs consolidados da camada Gold via mecanismo de *Graceful Degradation*. Isto significa **zero downtime de business intelligence**.
+O sistema foi construído com **separação rigorosa de responsabilidades** (Clean Architecture), que garante resiliência mesmo sob falhas. Se as camadas transacionais (Bronze/Silver) falharem, o painel isola o erro e continua entregando os KPIs consolidados da camada Gold por meio de um sistema de proteção automática. Ou seja, o painel nunca fica fora do ar e você continua acompanhando todos os seus números sem nenhuma interrupção**.
 
 ---
 
@@ -91,7 +91,7 @@ graph TD
 
 ---
 
-## ⚙️ Stack Tecnológica
+## ⚙️ Tecnologias Envolvidadas
 
 ### 🔧 Orquestração & Processamento
 - **Python 3.14+** — Linguagem principal; tipagem forte com type hints.
@@ -184,7 +184,7 @@ projeto-dados/
 - **Clean Architecture**: Separação entre domínio (models), casos de uso (transformers), infraestrutura (loaders/readers).
 - **Dependency Injection**: Loaders e readers recebem configuração via parâmetros.
 - **Type Safety**: Uso agressivo de type hints e Pydantic para validação em tempo de execução.
-- **DRY (Don't Repeat Yourself)**: Componentes reutilizáveis no dashboard, logging centralizado.
+- **DRY (Don't Repeat Yourself)**: Componentes reutilizáveis no dashboard, logging centralizado. (Um Shout Out para Luciano Vasconcelos por me ensinar esse)
 
 ---
 
@@ -370,37 +370,8 @@ Com os dados carregados, acesse a interface no navegador:
 ```
 
 **O que você verá:**
+--------COLOCAR AS PRINTS DO DASHBOARD----------
 
-1. **Header Executivo**: "E-Commerce Executive Dashboard" com subtítulo sobre visão integrada.
-2. **Sidebar com Filtros**:
-   - Dropdown de Categorias (Todas, Eletrônicos, Moda, etc.)
-   - Dropdown de Marcas
-   - Busca por Produto/SKU
-   - Botão "🔄 Atualizar Painel"
-3. **Bloco 1 - KPIs Executivos** (6 colunas):
-   - Receita Líquida (R$)
-   - Lucro Bruto (R$)
-   - Margem Bruta (%)
-   - Pedidos (contagem)
-   - Ticket Médio (R$)
-   - Itens Vendidos (unidades)
-4. **Bloco 2 - Composição**:
-   - Gráfico horizontal de Receita/Lucro/Margem por Categoria (Plotly).
-   - Top 10 Marcas por Faturamento (Plotly).
-5. **Bloco 3 - Matriz de Portfólio**:
-   - Scatter plot: Receita (X) × Margem % (Y), tamanho = Lucro, cor = Categoria.
-6. **Bloco 4 - Tabela Analítica Detalhada**:
-   - SKU, Nome, Marca, Categoria, Receita, Custo, Lucro, Margem %.
-7. **Bloco 5 - Business Insights (Automáticos)**:
-   - Alertas de cancelamento acima de 15%.
-   - Avisos de ruptura de estoque (< 15 unidades, alto volume).
-   - Alertas de baixa margem (< 15%) em produtos com alto faturamento.
-   - Info positiva: categoria líder.
-
-**Interatividade:**
-- Clique nos filtros: gráficos e tabela atualizam em tempo real.
-- Hover nos gráficos: veja valores exatos e tooltips.
-- Botão "🔄 Atualizar Painel": força recarga dos dados (limpa cache Streamlit).
 
 ---
 
@@ -597,12 +568,6 @@ Melhorias arquiteturais mapeadas:
 
 - [ ] **Transformação via DBT**: Refatoração das regras da camada Gold (agregadores SQL) para modelos **DBT**, incluindo DAGs de linhagem, data tests e documentação automatizada.
 
-- [ ] **CI/CD Automatizado**: Implementação de **GitHub Actions** para:
-  - Rodar suíte de testes em cada Pull Request.
-  - Lint de código (black, flake8, mypy).
-  - Build e push de imagens Docker.
-  - Deploy automático em staging/produção.
-
 - [ ] **Observabilidade & Monitoring**: Integração com **Prometheus** + **Grafana** para rastreamento de métricas do pipeline (latência, taxa de erro, volume processado).
 
 ---
@@ -611,7 +576,7 @@ Melhorias arquiteturais mapeadas:
 
 **Arthur Klein**
 
-Engenheiro de Dados | Arquiteto de Soluções Analíticas
+Estudante de Ciência e Engenharia de Dados e Inteligência Artificial 
 
 - 📧 Email: [arthurklein777.ak@gmail.com](mailto:arthurklein777.ak@gmail.com)
 - 💼 LinkedIn: [linkedin.com/in/arthurklein](https://linkedin.com/in/arthurklein)
