@@ -1328,5 +1328,145 @@
     "category": "informatica",
     "price": 176.55,
     "stock": 107
+  },
+  {
+    "id": 141,
+    "name": "Camiseta Básica",
+    "category": "vestuario",
+    "price": 117.78,
+    "stock": 418
+  },
+  {
+    "id": 142,
+    "name": "Teclado Mecânico",
+    "category": "informatica",
+    "price": 794.51,
+    "stock": 346
+  },
+  {
+    "id": 143,
+    "name": "Tênis Esportivo",
+    "category": "esportes",
+    "price": 562.1,
+    "stock": 431
+  },
+  {
+    "id": 144,
+    "name": "Teclado Mecânico",
+    "category": "informatica",
+    "price": 292.96,
+    "stock": 49
+  },
+  {
+    "id": 145,
+    "name": "Livro de Negócios",
+    "category": "livros",
+    "price": 135.89,
+    "stock": 103
+  },
+  {
+    "id": 146,
+    "name": "Jogo de Panelas",
+    "category": "casa",
+    "price": 699.95,
+    "stock": 368
+  },
+  {
+    "id": 147,
+    "name": "Moletom",
+    "category": "vestuario",
+    "price": 331.59,
+    "stock": 255
+  },
+  {
+    "id": 148,
+    "name": "Cafeteira Elétrica",
+    "category": "casa",
+    "price": 167.06,
+    "stock": 427
+  },
+  {
+    "id": 149,
+    "name": "Camiseta Básica",
+    "category": "vestuario",
+    "price": 52.68,
+    "stock": 370
+  },
+  {
+    "id": 150,
+    "name": "Fone Bluetooth",
+    "category": "eletronicos",
+    "price": 483.49,
+    "stock": 89
+  },
+  {
+    "id": 151,
+    "name": "Livro de Ficção",
+    "category": "livros",
+    "price": 34.46,
+    "stock": 354
+  },
+  {
+    "id": 152,
+    "name": "Cafeteira Elétrica",
+    "category": "casa",
+    "price": 680.07,
+    "stock": 43
+  },
+  {
+    "id": 153,
+    "name": "Liquidificador",
+    "category": "casa",
+    "price": 211.67,
+    "stock": 127
+  },
+  {
+    "id": 154,
+    "name": "Caixa de Som Bluetooth",
+    "category": "eletronicos",
+    "price": 574.99,
+    "stock": 167
+  },
+  {
+    "id": 155,
+    "name": "Liquidificador",
+    "category": "casa",
+    "price": 295.66,
+    "stock": 413
+  },
+  {
+    "id": 156,
+    "name": "Teclado Mecânico",
+    "category": "informatica",
+    "price": 843.05,
+    "stock": 475
+  },
+  {
+    "id": 157,
+    "name": "Jogo de Panelas",
+    "category": "casa",
+    "price": 839.0,
+    "stock": 105
+  },
+  {
+    "id": 158,
+    "name": "Moletom",
+    "category": "vestuario",
+    "price": 281.87,
+    "stock": 131
+  },
+  {
+    "id": 159,
+    "name": "Livro de Ciência",
+    "category": "livros",
+    "price": 63.18,
+    "stock": 142
+  },
+  {
+    "id": 160,
+    "name": "Livro de História",
+    "category": "livros",
+    "price": 92.41,
+    "stock": 386
   }
 ]

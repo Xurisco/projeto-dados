@@ -1,0 +1,30 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: postgres-db
+    restart: always
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: ecommerce_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  projeto-dados:
+    build: .
+    container_name: projeto-dados
+    environment:
+      DB_HOST: postgres
+      DB_USER: user
+      DB_PASSWORD: password
+      DB_NAME: ecommerce_db
+      DB_PORT: 5432
+    depends_on:
+      - postgres
+    volumes:
+      - ./data:/app/data
+
+volumes:
+  postgres_data:
