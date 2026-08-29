@@ -1468,5 +1468,285 @@
     "category": "livros",
     "price": 92.41,
     "stock": 386
+  },
+  {
+    "id": 161,
+    "name": "Livro de História",
+    "category": "livros",
+    "price": 68.21,
+    "stock": 25
+  },
+  {
+    "id": 162,
+    "name": "Bicicleta",
+    "category": "esportes",
+    "price": 3065.8,
+    "stock": 264
+  },
+  {
+    "id": 163,
+    "name": "Bola de Futebol",
+    "category": "esportes",
+    "price": 68.7,
+    "stock": 357
+  },
+  {
+    "id": 164,
+    "name": "Fone Bluetooth",
+    "category": "eletronicos",
+    "price": 612.85,
+    "stock": 236
+  },
+  {
+    "id": 165,
+    "name": "Cafeteira Elétrica",
+    "category": "casa",
+    "price": 508.26,
+    "stock": 447
+  },
+  {
+    "id": 166,
+    "name": "Cafeteira Elétrica",
+    "category": "casa",
+    "price": 639.61,
+    "stock": 152
+  },
+  {
+    "id": 167,
+    "name": "Notebook Lenovo",
+    "category": "informatica",
+    "price": 4490.98,
+    "stock": 127
+  },
+  {
+    "id": 168,
+    "name": "Bicicleta",
+    "category": "esportes",
+    "price": 1084.89,
+    "stock": 42
+  },
+  {
+    "id": 169,
+    "name": "Mochila Esportiva",
+    "category": "esportes",
+    "price": 479.04,
+    "stock": 68
+  },
+  {
+    "id": 170,
+    "name": "Livro de História",
+    "category": "livros",
+    "price": 38.61,
+    "stock": 487
+  },
+  {
+    "id": 171,
+    "name": "Air Fryer",
+    "category": "casa",
+    "price": 326.31,
+    "stock": 301
+  },
+  {
+    "id": 172,
+    "name": "Livro de História",
+    "category": "livros",
+    "price": 88.86,
+    "stock": 198
+  },
+  {
+    "id": 173,
+    "name": "Livro de Ciência",
+    "category": "livros",
+    "price": 41.09,
+    "stock": 273
+  },
+  {
+    "id": 174,
+    "name": "Notebook Lenovo",
+    "category": "informatica",
+    "price": 4167.67,
+    "stock": 298
+  },
+  {
+    "id": 175,
+    "name": "Caixa de Som Bluetooth",
+    "category": "eletronicos",
+    "price": 892.09,
+    "stock": 316
+  },
+  {
+    "id": 176,
+    "name": "Liquidificador",
+    "category": "casa",
+    "price": 287.48,
+    "stock": 367
+  },
+  {
+    "id": 177,
+    "name": "Caixa de Som Bluetooth",
+    "category": "eletronicos",
+    "price": 718.47,
+    "stock": 290
+  },
+  {
+    "id": 178,
+    "name": "Livro de Ficção",
+    "category": "livros",
+    "price": 71.78,
+    "stock": 315
+  },
+  {
+    "id": 179,
+    "name": "Cafeteira Elétrica",
+    "category": "casa",
+    "price": 422.86,
+    "stock": 120
+  },
+  {
+    "id": 180,
+    "name": "Smartphone Samsung Galaxy",
+    "category": "eletronicos",
+    "price": 2082.36,
+    "stock": 79
+  },
+  {
+    "id": 181,
+    "name": "Caixa de Som Bluetooth",
+    "category": "eletronicos",
+    "price": 272.05,
+    "stock": 81
+  },
+  {
+    "id": 182,
+    "name": "Smart TV 50 Polegadas",
+    "category": "eletronicos",
+    "price": 4049.19,
+    "stock": 498
+  },
+  {
+    "id": 183,
+    "name": "Bola de Futebol",
+    "category": "esportes",
+    "price": 88.53,
+    "stock": 372
+  },
+  {
+    "id": 184,
+    "name": "Mouse Logitech",
+    "category": "informatica",
+    "price": 138.44,
+    "stock": 426
+  },
+  {
+    "id": 185,
+    "name": "Jogo de Panelas",
+    "category": "casa",
+    "price": 609.84,
+    "stock": 459
+  },
+  {
+    "id": 186,
+    "name": "Mochila Esportiva",
+    "category": "esportes",
+    "price": 407.47,
+    "stock": 392
+  },
+  {
+    "id": 187,
+    "name": "Fone Bluetooth",
+    "category": "eletronicos",
+    "price": 162.23,
+    "stock": 8
+  },
+  {
+    "id": 188,
+    "name": "Mochila Esportiva",
+    "category": "esportes",
+    "price": 337.03,
+    "stock": 467
+  },
+  {
+    "id": 189,
+    "name": "Cafeteira Elétrica",
+    "category": "casa",
+    "price": 764.36,
+    "stock": 391
+  },
+  {
+    "id": 190,
+    "name": "Moletom",
+    "category": "vestuario",
+    "price": 120.83,
+    "stock": 70
+  },
+  {
+    "id": 191,
+    "name": "Calça Jeans",
+    "category": "vestuario",
+    "price": 157.31,
+    "stock": 264
+  },
+  {
+    "id": 192,
+    "name": "Air Fryer",
+    "category": "casa",
+    "price": 372.84,
+    "stock": 68
+  },
+  {
+    "id": 193,
+    "name": "Monitor 24 Polegadas",
+    "category": "informatica",
+    "price": 1009.5,
+    "stock": 494
+  },
+  {
+    "id": 194,
+    "name": "Tênis Esportivo",
+    "category": "esportes",
+    "price": 1145.78,
+    "stock": 264
+  },
+  {
+    "id": 195,
+    "name": "Camiseta Básica",
+    "category": "vestuario",
+    "price": 88.14,
+    "stock": 187
+  },
+  {
+    "id": 196,
+    "name": "Smartwatch",
+    "category": "eletronicos",
+    "price": 830.18,
+    "stock": 139
+  },
+  {
+    "id": 197,
+    "name": "Smartphone Samsung Galaxy",
+    "category": "eletronicos",
+    "price": 1747.8,
+    "stock": 143
+  },
+  {
+    "id": 198,
+    "name": "Calça Jeans",
+    "category": "vestuario",
+    "price": 166.08,
+    "stock": 278
+  },
+  {
+    "id": 199,
+    "name": "Aspirador de Pó",
+    "category": "casa",
+    "price": 518.12,
+    "stock": 162
+  },
+  {
+    "id": 200,
+    "name": "Livro de Ciência",
+    "category": "livros",
+    "price": 115.63,
+    "stock": 161
   }
 ]
