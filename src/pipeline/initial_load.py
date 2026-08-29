@@ -1,6 +1,8 @@
+import json
 from pathlib import Path
 
 from src.generators.customer_generator import generate_customer
+from src.generators.data_quality_injector import DataQualityInjector
 from src.generators.order_generator import generate_order
 from src.generators.product_generator import generate_product
 from src.loaders.json_loader import JSONLoader
@@ -37,6 +39,19 @@ def run_initial_load(
         for _ in range(number_of_orders)
     ]
 
+    # Injeta inconsistências nos pedidos
+    dirty_orders = DataQualityInjector.inject_dirty_orders(orders)
+
     JSON_LOADER.save(customers, BRONZE_PATH / "customers.json")
     JSON_LOADER.save(products, BRONZE_PATH / "products.json")
-    JSON_LOADER.save(orders, BRONZE_PATH / "orders.json")
+
+    # Salva os pedidos brutos contendo dados problemáticos
+    file_path = BRONZE_PATH / "orders.json"
+    file_path.parent.mkdir(parents=True, exist_ok=True)
+    existing = []
+    if file_path.exists():
+        with file_path.open("r", encoding="utf-8") as f:
+            existing = json.load(f)
+    existing.extend(dirty_orders)
+    with file_path.open("w", encoding="utf-8") as f:
+        json.dump(existing, f, ensure_ascii=False, indent=2)

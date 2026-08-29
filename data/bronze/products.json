@@ -2378,5 +2378,355 @@
     "category": "casa",
     "price": 1490.32,
     "stock": 333
+  },
+  {
+    "id": 291,
+    "name": "Mouse Logitech",
+    "category": "informatica",
+    "price": 265.78,
+    "stock": 186
+  },
+  {
+    "id": 292,
+    "name": "Jaqueta",
+    "category": "vestuario",
+    "price": 443.18,
+    "stock": 371
+  },
+  {
+    "id": 293,
+    "name": "Jogo de Panelas",
+    "category": "casa",
+    "price": 517.7,
+    "stock": 368
+  },
+  {
+    "id": 294,
+    "name": "Mouse Logitech",
+    "category": "informatica",
+    "price": 355.25,
+    "stock": 130
+  },
+  {
+    "id": 295,
+    "name": "Jaqueta",
+    "category": "vestuario",
+    "price": 196.2,
+    "stock": 135
+  },
+  {
+    "id": 296,
+    "name": "Air Fryer",
+    "category": "casa",
+    "price": 759.54,
+    "stock": 8
+  },
+  {
+    "id": 297,
+    "name": "Teclado Mecânico",
+    "category": "informatica",
+    "price": 252.31,
+    "stock": 264
+  },
+  {
+    "id": 298,
+    "name": "Livro de Tecnologia",
+    "category": "livros",
+    "price": 180.41,
+    "stock": 219
+  },
+  {
+    "id": 299,
+    "name": "Notebook Lenovo",
+    "category": "informatica",
+    "price": 4817.42,
+    "stock": 458
+  },
+  {
+    "id": 300,
+    "name": "Jogo de Panelas",
+    "category": "casa",
+    "price": 921.26,
+    "stock": 234
+  },
+  {
+    "id": 301,
+    "name": "Aspirador de Pó",
+    "category": "casa",
+    "price": 1015.85,
+    "stock": 148
+  },
+  {
+    "id": 302,
+    "name": "Liquidificador",
+    "category": "casa",
+    "price": 473.56,
+    "stock": 48
+  },
+  {
+    "id": 303,
+    "name": "Calça Jeans",
+    "category": "vestuario",
+    "price": 326.15,
+    "stock": 414
+  },
+  {
+    "id": 304,
+    "name": "Aspirador de Pó",
+    "category": "casa",
+    "price": 469.39,
+    "stock": 257
+  },
+  {
+    "id": 305,
+    "name": "Tênis Esportivo",
+    "category": "esportes",
+    "price": 605.71,
+    "stock": 253
+  },
+  {
+    "id": 306,
+    "name": "Air Fryer",
+    "category": "casa",
+    "price": 734.46,
+    "stock": 415
+  },
+  {
+    "id": 307,
+    "name": "Fone Bluetooth",
+    "category": "eletronicos",
+    "price": 429.22,
+    "stock": 172
+  },
+  {
+    "id": 308,
+    "name": "Notebook Lenovo",
+    "category": "informatica",
+    "price": 4785.25,
+    "stock": 16
+  },
+  {
+    "id": 309,
+    "name": "Liquidificador",
+    "category": "casa",
+    "price": 448.64,
+    "stock": 392
+  },
+  {
+    "id": 310,
+    "name": "Livro de Negócios",
+    "category": "livros",
+    "price": 158.38,
+    "stock": 433
+  },
+  {
+    "id": 311,
+    "name": "Cafeteira Elétrica",
+    "category": "casa",
+    "price": 1052.59,
+    "stock": 302
+  },
+  {
+    "id": 312,
+    "name": "Monitor 24 Polegadas",
+    "category": "informatica",
+    "price": 1497.86,
+    "stock": 484
+  },
+  {
+    "id": 313,
+    "name": "Fone Bluetooth",
+    "category": "eletronicos",
+    "price": 532.78,
+    "stock": 102
+  },
+  {
+    "id": 314,
+    "name": "Smartwatch",
+    "category": "eletronicos",
+    "price": 1083.74,
+    "stock": 325
+  },
+  {
+    "id": 315,
+    "name": "Liquidificador",
+    "category": "casa",
+    "price": 171.37,
+    "stock": 484
+  },
+  {
+    "id": 316,
+    "name": "Notebook Lenovo",
+    "category": "informatica",
+    "price": 4447.43,
+    "stock": 9
+  },
+  {
+    "id": 317,
+    "name": "Mochila Esportiva",
+    "category": "esportes",
+    "price": 242.11,
+    "stock": 390
+  },
+  {
+    "id": 318,
+    "name": "Moletom",
+    "category": "vestuario",
+    "price": 284.04,
+    "stock": 439
+  },
+  {
+    "id": 319,
+    "name": "Jogo de Panelas",
+    "category": "casa",
+    "price": 839.34,
+    "stock": 443
+  },
+  {
+    "id": 320,
+    "name": "Livro de Ciência",
+    "category": "livros",
+    "price": 134.86,
+    "stock": 203
+  },
+  {
+    "id": 321,
+    "name": "Tênis Esportivo",
+    "category": "esportes",
+    "price": 725.86,
+    "stock": 197
+  },
+  {
+    "id": 322,
+    "name": "Mouse Logitech",
+    "category": "informatica",
+    "price": 94.76,
+    "stock": 240
+  },
+  {
+    "id": 323,
+    "name": "Bicicleta",
+    "category": "esportes",
+    "price": 2612.82,
+    "stock": 497
+  },
+  {
+    "id": 324,
+    "name": "Livro de Tecnologia",
+    "category": "livros",
+    "price": 103.94,
+    "stock": 126
+  },
+  {
+    "id": 325,
+    "name": "Bola de Futebol",
+    "category": "esportes",
+    "price": 168.22,
+    "stock": 474
+  },
+  {
+    "id": 326,
+    "name": "Mouse Logitech",
+    "category": "informatica",
+    "price": 279.2,
+    "stock": 42
+  },
+  {
+    "id": 327,
+    "name": "Smartphone Samsung Galaxy",
+    "category": "eletronicos",
+    "price": 1226.21,
+    "stock": 254
+  },
+  {
+    "id": 328,
+    "name": "Tênis Esportivo",
+    "category": "esportes",
+    "price": 906.33,
+    "stock": 271
+  },
+  {
+    "id": 329,
+    "name": "Air Fryer",
+    "category": "casa",
+    "price": 971.85,
+    "stock": 335
+  },
+  {
+    "id": 330,
+    "name": "Bicicleta",
+    "category": "esportes",
+    "price": 4564.43,
+    "stock": 200
+  },
+  {
+    "id": 331,
+    "name": "Bicicleta",
+    "category": "esportes",
+    "price": 1729.13,
+    "stock": 43
+  },
+  {
+    "id": 332,
+    "name": "Jaqueta",
+    "category": "vestuario",
+    "price": 409.18,
+    "stock": 482
+  },
+  {
+    "id": 333,
+    "name": "Moletom",
+    "category": "vestuario",
+    "price": 209.31,
+    "stock": 146
+  },
+  {
+    "id": 334,
+    "name": "Tênis Esportivo",
+    "category": "esportes",
+    "price": 1085.81,
+    "stock": 129
+  },
+  {
+    "id": 335,
+    "name": "Kit de Halteres",
+    "category": "esportes",
+    "price": 585.61,
+    "stock": 173
+  },
+  {
+    "id": 336,
+    "name": "Smartphone Samsung Galaxy",
+    "category": "eletronicos",
+    "price": 1306.77,
+    "stock": 307
+  },
+  {
+    "id": 337,
+    "name": "Livro de História",
+    "category": "livros",
+    "price": 107.4,
+    "stock": 121
+  },
+  {
+    "id": 338,
+    "name": "Tênis Esportivo",
+    "category": "esportes",
+    "price": 640.83,
+    "stock": 100
+  },
+  {
+    "id": 339,
+    "name": "Calça Jeans",
+    "category": "vestuario",
+    "price": 172.87,
+    "stock": 113
+  },
+  {
+    "id": 340,
+    "name": "Bicicleta",
+    "category": "esportes",
+    "price": 1710.08,
+    "stock": 290
   }
 ]

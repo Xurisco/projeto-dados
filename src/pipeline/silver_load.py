@@ -1,8 +1,9 @@
 from pathlib import Path
 
 from src.loaders.json_loader import JSONLoader
-from src.models.models import Customer, Product, Order
+from src.models.models import Customer, Product
 from src.readers.json_reader import JSONReader
+from src.transformers.data_quality import DataQualityValidator
 from src.transformers.data_transformer import (
     transform_customers,
     transform_products,
@@ -27,9 +28,9 @@ def run_silver_load() -> None:
         Product,
     )
 
-    orders = JSON_READER.read(
-        BRONZE_PATH / "orders.json",
-        Order,
+    # Aplica validação de Data Quality nos Pedidos brutos
+    orders = DataQualityValidator.validate_and_clean_orders(
+        BRONZE_PATH / "orders.json"
     )
 
     customers = transform_customers(customers)
