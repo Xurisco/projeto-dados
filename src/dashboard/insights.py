@@ -1,69 +1,71 @@
 import pandas as pd
 
-def generate_business_insights(df_orders: pd.DataFrame, df_products: pd.DataFrame) -> list[dict]:
+
+def generate_business_insights(df_gold: pd.DataFrame) -> list[dict]:
+    """Gera insights executivos positivos e de alerta utilizando a camada Gold (sales_summary)."""
     insights = []
-    
-    if df_orders.empty or df_products.empty:
+
+    if df_gold.empty:
         return insights
-        
-    completed = df_orders[df_orders["status"] == "Concluído"].copy()
-    
-    # 1. Alerta de Cancelamento / Devolução
-    total_orders_count = len(df_orders)
-    canceled_count = len(df_orders[df_orders["status"].isin(["Cancelado", "Devolvido"])])
-    cancel_rate = (canceled_count / total_orders_count * 100) if total_orders_count > 0 else 0
-    
-    if cancel_rate > 15:
-        insights.append({
-            "type": "alert",
-            "title": "Taxa Anormal de Cancelamentos",
-            "msg": f"A taxa de pedidos cancelados/devolvidos está em **{cancel_rate:.1f}%**, impactando o fluxo operacional."
-        })
-        
-    # 2. Produtos de Alta Venda x Baixo Estoque (Risco de Ruptura)
-    prod_sales = completed.groupby("product_id")["quantity"].sum().reset_index()
-    merged_stock = pd.merge(df_products, prod_sales, left_on="id", right_on="product_id", how="inner")
-    
-    critical_stock = merged_stock[(merged_stock["quantity"] > 10) & (merged_stock["stock_quantity"] < 15)]
-    if not critical_stock.empty:
-        prod_names = ", ".join(critical_stock["name"].head(2).tolist())
+
+    # 1. Margem Bruta Média Geral
+    avg_margin = df_gold["margin_percent"].mean()
+    if avg_margin < 20:
         insights.append({
             "type": "warning",
-            "title": "Risco de Ruptura de Estoque",
-            "msg": f"Produtos com alto volume de vendas estão com estoque crítico (< 15 un.): **{prod_names}**."
+            "title": "Margem Média Baixa",
+            "msg": f"A margem média geral do portfólio está em **{avg_margin:.1f}%**, exigindo monitoramento de custos."
         })
-        
-    # 3. Produtos Volume sem Rentabilidade (Baixa Margem)
-    completed["revenue"] = (completed["quantity"] * completed["unit_price"]) - completed["discount"]
-    completed["cost"] = completed["quantity"] * completed["cost_price"]
-    
-    p_summary = completed.groupby("product_id").agg(
-        rev=("revenue", "sum"),
-        cost=("cost", "sum")
-    ).reset_index()
-    p_summary["profit"] = p_summary["rev"] - p_summary["cost"]
-    p_summary["margin"] = (p_summary["profit"] / p_summary["rev"]) * 100
-    
-    low_margin_high_rev = p_summary[(p_summary["rev"] > p_summary["rev"].median()) & (p_summary["margin"] < 15)]
-    if not low_margin_high_rev.empty:
+    else:
         insights.append({
-            "type": "warning",
-            "title": "Atenção à Margem de Vendas",
-            "msg": f"Existem **{len(low_margin_high_rev)}** produtos no Top de Faturamento operando com margem bruta inferior a 15%."
+            "type": "success",
+            "title": "Rentabilidade Saudável",
+            "msg": f"A margem média global do portfólio está robusta em **{avg_margin:.1f}%**."
         })
 
-    # 4. Insight Positivo de Categoria Líder
-    cat_summary = completed.groupby("product_id").agg(rev=("revenue", "sum")).reset_index()
-    cat_merged = pd.merge(df_products[["id", "category"]], cat_summary, left_on="id", right_on="product_id")
-    top_cat = cat_merged.groupby("category")["rev"].sum().sort_values(ascending=False)
-    
-    if not top_cat.empty:
-        top_cat_name = top_cat.index[0]
-        share = (top_cat.iloc[0] / top_cat.sum()) * 100
+    # 2. Identificação de Produtos com Margem Crítica (< 10%)
+    low_margin_prods = df_gold[df_gold["margin_percent"] < 10]
+    if not low_margin_prods.empty:
+        prod_names = ", ".join(low_margin_prods["name"].head(2).dropna().tolist())
         insights.append({
-            "type": "info",
-            "title": "Concentração de Categoria",
-            "msg": f"A categoria **{top_cat_name}** lidera as vendas, representando **{share:.1f}%** do faturamento total."
+            "type": "alert",
+            "title": "Alerta de Margem Crítica em Produtos",
+            "msg": f"Existem produtos operando com margem inferior a 10%, destacando-se: **{prod_names}**."
         })
-        
+    else:
+        insights.append({
+            "type": "success",
+            "title": "Margens de Produtos Controladas",
+            "msg": "Nenhum produto cadastrado opera com margem crítica abaixo de 10%."
+        })
+
+    # 3. Concentração de Categoria
+    cat_summary = df_gold.groupby("category")["total_revenue"].sum()
+    total_rev = cat_summary.sum()
+    if total_rev > 0:
+        top_cat = cat_summary.idxmax()
+        top_share = (cat_summary.max() / total_rev) * 100
+        if top_share > 40:
+            insights.append({
+                "type": "warning",
+                "title": "Alta Concentração de Faturamento",
+                "msg": f"A categoria **{top_cat}** concentra **{top_share:.1f}%** de toda a receita."
+            })
+        else:
+            insights.append({
+                "type": "success",
+                "title": "Portfólio Diversificado",
+                "msg": f"Receita equilibrada entre as categorias; a líder (**{top_cat}**) detém **{top_share:.1f}%**."
+            })
+
+    # 4. Destaque do Produto Líder em Receita
+    if not df_gold.empty:
+        top_prod = df_gold.iloc[0]
+        revenue_str = f"R$ {top_prod['total_revenue']:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+        insights.append({
+            "type": "success",
+            "title": "Principal Motor de Vendas",
+            "msg": f"O produto **{top_prod['name']}** lidera o faturamento acumulando **{revenue_str}**."
+        })
+
     return insights
