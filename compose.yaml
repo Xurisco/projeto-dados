@@ -25,6 +25,25 @@ services:
       - postgres
     volumes:
       - ./data:/app/data
+      - ./src:/app/src
+
+  dashboard:
+    build: .
+    container_name: dashboard-streamlit
+    command: poetry run streamlit run src/dashboard/app.py --server.port=8501 --server.address=0.0.0.0
+    ports:
+      - "8501:8501"
+    environment:
+      PYTHONPATH: /app
+      DB_HOST: postgres
+      DB_USER: user
+      DB_PASSWORD: password
+      DB_NAME: ecommerce_db
+      DB_PORT: 5432
+    depends_on:
+      - postgres
+    volumes:
+      - ./src:/app/src
 
 volumes:
   postgres_data:

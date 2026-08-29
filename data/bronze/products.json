@@ -2728,5 +2728,565 @@
     "category": "esportes",
     "price": 1710.08,
     "stock": 290
+  },
+  {
+    "id": 341,
+    "name": "Bola de Futebol",
+    "category": "esportes",
+    "price": 199.73,
+    "stock": 153
+  },
+  {
+    "id": 342,
+    "name": "Bola de Futebol",
+    "category": "esportes",
+    "price": 292.42,
+    "stock": 346
+  },
+  {
+    "id": 343,
+    "name": "Smartwatch",
+    "category": "eletronicos",
+    "price": 1430.05,
+    "stock": 31
+  },
+  {
+    "id": 344,
+    "name": "Livro de Negócios",
+    "category": "livros",
+    "price": 109.65,
+    "stock": 50
+  },
+  {
+    "id": 345,
+    "name": "Air Fryer",
+    "category": "casa",
+    "price": 586.74,
+    "stock": 228
+  },
+  {
+    "id": 346,
+    "name": "Liquidificador",
+    "category": "casa",
+    "price": 284.2,
+    "stock": 419
+  },
+  {
+    "id": 347,
+    "name": "Webcam Full HD",
+    "category": "informatica",
+    "price": 553.41,
+    "stock": 96
+  },
+  {
+    "id": 348,
+    "name": "Mouse Logitech",
+    "category": "informatica",
+    "price": 393.99,
+    "stock": 133
+  },
+  {
+    "id": 349,
+    "name": "Smartphone Samsung Galaxy",
+    "category": "eletronicos",
+    "price": 1797.93,
+    "stock": 110
+  },
+  {
+    "id": 350,
+    "name": "Smart TV 50 Polegadas",
+    "category": "eletronicos",
+    "price": 3106.14,
+    "stock": 443
+  },
+  {
+    "id": 351,
+    "name": "Jogo de Panelas",
+    "category": "casa",
+    "price": 883.4,
+    "stock": 370
+  },
+  {
+    "id": 352,
+    "name": "Bola de Futebol",
+    "category": "esportes",
+    "price": 254.24,
+    "stock": 464
+  },
+  {
+    "id": 353,
+    "name": "Jaqueta",
+    "category": "vestuario",
+    "price": 344.94,
+    "stock": 294
+  },
+  {
+    "id": 354,
+    "name": "Cafeteira Elétrica",
+    "category": "casa",
+    "price": 919.87,
+    "stock": 264
+  },
+  {
+    "id": 355,
+    "name": "Notebook Lenovo",
+    "category": "informatica",
+    "price": 2692.93,
+    "stock": 154
+  },
+  {
+    "id": 356,
+    "name": "Tênis Casual",
+    "category": "vestuario",
+    "price": 564.58,
+    "stock": 5
+  },
+  {
+    "id": 357,
+    "name": "Webcam Full HD",
+    "category": "informatica",
+    "price": 606.18,
+    "stock": 194
+  },
+  {
+    "id": 358,
+    "name": "Camiseta Básica",
+    "category": "vestuario",
+    "price": 59.4,
+    "stock": 432
+  },
+  {
+    "id": 359,
+    "name": "Livro de Ficção",
+    "category": "livros",
+    "price": 34.22,
+    "stock": 460
+  },
+  {
+    "id": 360,
+    "name": "Livro de Negócios",
+    "category": "livros",
+    "price": 154.3,
+    "stock": 36
+  },
+  {
+    "id": 361,
+    "name": "Air Fryer",
+    "category": "casa",
+    "price": 506.81,
+    "stock": 216
+  },
+  {
+    "id": 362,
+    "name": "Webcam Full HD",
+    "category": "informatica",
+    "price": 188.29,
+    "stock": 170
+  },
+  {
+    "id": 363,
+    "name": "Smart TV 50 Polegadas",
+    "category": "eletronicos",
+    "price": 3437.65,
+    "stock": 465
+  },
+  {
+    "id": 364,
+    "name": "Camiseta Básica",
+    "category": "vestuario",
+    "price": 54.29,
+    "stock": 355
+  },
+  {
+    "id": 365,
+    "name": "Liquidificador",
+    "category": "casa",
+    "price": 208.7,
+    "stock": 238
+  },
+  {
+    "id": 366,
+    "name": "Livro de História",
+    "category": "livros",
+    "price": 72.8,
+    "stock": 72
+  },
+  {
+    "id": 367,
+    "name": "Livro de Ficção",
+    "category": "livros",
+    "price": 30.92,
+    "stock": 284
+  },
+  {
+    "id": 368,
+    "name": "Calça Jeans",
+    "category": "vestuario",
+    "price": 238.43,
+    "stock": 446
+  },
+  {
+    "id": 369,
+    "name": "Cafeteira Elétrica",
+    "category": "casa",
+    "price": 209.84,
+    "stock": 408
+  },
+  {
+    "id": 370,
+    "name": "Camiseta Básica",
+    "category": "vestuario",
+    "price": 75.5,
+    "stock": 416
+  },
+  {
+    "id": 371,
+    "name": "Smartphone Samsung Galaxy",
+    "category": "eletronicos",
+    "price": 3625.56,
+    "stock": 224
+  },
+  {
+    "id": 372,
+    "name": "Webcam Full HD",
+    "category": "informatica",
+    "price": 339.43,
+    "stock": 47
+  },
+  {
+    "id": 373,
+    "name": "Liquidificador",
+    "category": "casa",
+    "price": 458.29,
+    "stock": 392
+  },
+  {
+    "id": 374,
+    "name": "Livro de Negócios",
+    "category": "livros",
+    "price": 48.08,
+    "stock": 105
+  },
+  {
+    "id": 375,
+    "name": "Livro de Tecnologia",
+    "category": "livros",
+    "price": 183.57,
+    "stock": 394
+  },
+  {
+    "id": 376,
+    "name": "Moletom",
+    "category": "vestuario",
+    "price": 172.71,
+    "stock": 411
+  },
+  {
+    "id": 377,
+    "name": "Cafeteira Elétrica",
+    "category": "casa",
+    "price": 890.77,
+    "stock": 375
+  },
+  {
+    "id": 378,
+    "name": "Livro de Negócios",
+    "category": "livros",
+    "price": 80.29,
+    "stock": 480
+  },
+  {
+    "id": 379,
+    "name": "Jaqueta",
+    "category": "vestuario",
+    "price": 420.95,
+    "stock": 458
+  },
+  {
+    "id": 380,
+    "name": "Mouse Logitech",
+    "category": "informatica",
+    "price": 196.84,
+    "stock": 498
+  },
+  {
+    "id": 381,
+    "name": "Aspirador de Pó",
+    "category": "casa",
+    "price": 333.48,
+    "stock": 230
+  },
+  {
+    "id": 382,
+    "name": "Bicicleta",
+    "category": "esportes",
+    "price": 1365.16,
+    "stock": 374
+  },
+  {
+    "id": 383,
+    "name": "Liquidificador",
+    "category": "casa",
+    "price": 553.28,
+    "stock": 300
+  },
+  {
+    "id": 384,
+    "name": "Cafeteira Elétrica",
+    "category": "casa",
+    "price": 1044.48,
+    "stock": 404
+  },
+  {
+    "id": 385,
+    "name": "Smart TV 50 Polegadas",
+    "category": "eletronicos",
+    "price": 2306.43,
+    "stock": 272
+  },
+  {
+    "id": 386,
+    "name": "Moletom",
+    "category": "vestuario",
+    "price": 160.91,
+    "stock": 309
+  },
+  {
+    "id": 387,
+    "name": "Livro de Tecnologia",
+    "category": "livros",
+    "price": 175.96,
+    "stock": 305
+  },
+  {
+    "id": 388,
+    "name": "Webcam Full HD",
+    "category": "informatica",
+    "price": 374.04,
+    "stock": 86
+  },
+  {
+    "id": 389,
+    "name": "Smartphone Samsung Galaxy",
+    "category": "eletronicos",
+    "price": 2815.5,
+    "stock": 322
+  },
+  {
+    "id": 390,
+    "name": "Bicicleta",
+    "category": "esportes",
+    "price": 1062.08,
+    "stock": 298
+  },
+  {
+    "id": 391,
+    "name": "Mouse Logitech",
+    "category": "informatica",
+    "price": 145.8,
+    "stock": 277
+  },
+  {
+    "id": 392,
+    "name": "Air Fryer",
+    "category": "casa",
+    "price": 378.89,
+    "stock": 237
+  },
+  {
+    "id": 393,
+    "name": "Calça Jeans",
+    "category": "vestuario",
+    "price": 106.23,
+    "stock": 91
+  },
+  {
+    "id": 394,
+    "name": "Livro de Ficção",
+    "category": "livros",
+    "price": 41.42,
+    "stock": 366
+  },
+  {
+    "id": 395,
+    "name": "Tênis Casual",
+    "category": "vestuario",
+    "price": 661.27,
+    "stock": 285
+  },
+  {
+    "id": 396,
+    "name": "Mouse Logitech",
+    "category": "informatica",
+    "price": 489.21,
+    "stock": 0
+  },
+  {
+    "id": 397,
+    "name": "Livro de Negócios",
+    "category": "livros",
+    "price": 104.87,
+    "stock": 344
+  },
+  {
+    "id": 398,
+    "name": "Tênis Esportivo",
+    "category": "esportes",
+    "price": 353.67,
+    "stock": 493
+  },
+  {
+    "id": 399,
+    "name": "Smart TV 50 Polegadas",
+    "category": "eletronicos",
+    "price": 3038.5,
+    "stock": 315
+  },
+  {
+    "id": 400,
+    "name": "Mouse Logitech",
+    "category": "informatica",
+    "price": 426.97,
+    "stock": 486
+  },
+  {
+    "id": 401,
+    "name": "Bicicleta",
+    "category": "esportes",
+    "price": 1013.3,
+    "stock": 341
+  },
+  {
+    "id": 402,
+    "name": "Livro de História",
+    "category": "livros",
+    "price": 113.09,
+    "stock": 365
+  },
+  {
+    "id": 403,
+    "name": "Camiseta Básica",
+    "category": "vestuario",
+    "price": 79.26,
+    "stock": 412
+  },
+  {
+    "id": 404,
+    "name": "Tênis Esportivo",
+    "category": "esportes",
+    "price": 483.66,
+    "stock": 429
+  },
+  {
+    "id": 405,
+    "name": "Teclado Mecânico",
+    "category": "informatica",
+    "price": 840.53,
+    "stock": 40
+  },
+  {
+    "id": 406,
+    "name": "Smartwatch",
+    "category": "eletronicos",
+    "price": 618.02,
+    "stock": 195
+  },
+  {
+    "id": 407,
+    "name": "Jogo de Panelas",
+    "category": "casa",
+    "price": 786.89,
+    "stock": 97
+  },
+  {
+    "id": 408,
+    "name": "Monitor 24 Polegadas",
+    "category": "informatica",
+    "price": 945.09,
+    "stock": 289
+  },
+  {
+    "id": 409,
+    "name": "Mouse Logitech",
+    "category": "informatica",
+    "price": 196.33,
+    "stock": 56
+  },
+  {
+    "id": 410,
+    "name": "Bola de Futebol",
+    "category": "esportes",
+    "price": 139.76,
+    "stock": 289
+  },
+  {
+    "id": 411,
+    "name": "Bola de Futebol",
+    "category": "esportes",
+    "price": 200.95,
+    "stock": 318
+  },
+  {
+    "id": 412,
+    "name": "Tênis Casual",
+    "category": "vestuario",
+    "price": 471.64,
+    "stock": 492
+  },
+  {
+    "id": 413,
+    "name": "Camiseta Básica",
+    "category": "vestuario",
+    "price": 49.4,
+    "stock": 424
+  },
+  {
+    "id": 414,
+    "name": "Bicicleta",
+    "category": "esportes",
+    "price": 4128.23,
+    "stock": 29
+  },
+  {
+    "id": 415,
+    "name": "Liquidificador",
+    "category": "casa",
+    "price": 533.82,
+    "stock": 420
+  },
+  {
+    "id": 416,
+    "name": "Tênis Esportivo",
+    "category": "esportes",
+    "price": 609.45,
+    "stock": 331
+  },
+  {
+    "id": 417,
+    "name": "Livro de Tecnologia",
+    "category": "livros",
+    "price": 85.84,
+    "stock": 86
+  },
+  {
+    "id": 418,
+    "name": "Mouse Logitech",
+    "category": "informatica",
+    "price": 158.7,
+    "stock": 353
+  },
+  {
+    "id": 419,
+    "name": "Livro de Tecnologia",
+    "category": "livros",
+    "price": 195.24,
+    "stock": 29
+  },
+  {
+    "id": 420,
+    "name": "Livro de História",
+    "category": "livros",
+    "price": 36.56,
+    "stock": 159
   }
 ]
