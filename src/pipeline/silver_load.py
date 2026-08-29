@@ -1,31 +1,33 @@
 from pathlib import Path
 
-from src.loaders.json_loader import save_json
+from src.loaders.json_loader import JSONLoader
 from src.models.models import Customer, Product, Order
-from src.readers.json_reader import read_json
+from src.readers.json_reader import JSONReader
 from src.transformers.data_transformer import (
     transform_customers,
     transform_products,
     transform_orders,
 )
 
-
 BRONZE_PATH = Path("data/bronze")
 SILVER_PATH = Path("data/silver")
 
+JSON_READER = JSONReader()
+JSON_LOADER = JSONLoader()
+
 
 def run_silver_load() -> None:
-    customers = read_json(
+    customers = JSON_READER.read(
         BRONZE_PATH / "customers.json",
         Customer,
     )
 
-    products = read_json(
+    products = JSON_READER.read(
         BRONZE_PATH / "products.json",
         Product,
     )
 
-    orders = read_json(
+    orders = JSON_READER.read(
         BRONZE_PATH / "orders.json",
         Order,
     )
@@ -34,6 +36,6 @@ def run_silver_load() -> None:
     products = transform_products(products)
     orders = transform_orders(orders)
 
-    save_json(customers, SILVER_PATH / "customers.json")
-    save_json(products, SILVER_PATH / "products.json")
-    save_json(orders, SILVER_PATH / "orders.json")
+    JSON_LOADER.save(customers, SILVER_PATH / "customers.json")
+    JSON_LOADER.save(products, SILVER_PATH / "products.json")
+    JSON_LOADER.save(orders, SILVER_PATH / "orders.json")

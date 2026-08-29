@@ -1,249 +1,339 @@
 product_id,name,category,total_orders,total_quantity,total_revenue
-1,Mochila Esportiva,esportes,10810,31763,14542377.21
-1,Smartwatch,eletronicos,10340,30382,13910099.94
-2,Fone Bluetooth,eletronicos,13420,39776,26426385.92
-2,Teclado Mecânico,informatica,14030,41584,27627585.28
-3,Cafeteira Elétrica,casa,9350,25520,13013279.84
-3,Jogo de Panelas,casa,9775,26680,13604792.56
-4,Calça Jeans,vestuario,7774,25346,10170405.88
-4,Fone Bluetooth,eletronicos,7436,24244,9728214.32
-5,Calça Jeans,vestuario,8514,25982,11239822.66
-5,Jogo de Panelas,casa,8901,27163,11750723.69
-6,Livro de Ficção,livros,9262,25850,1894634.94
-6,Mochila Esportiva,esportes,9683,27025,1980754.71
-7,Bola de Futebol,esportes,13332,39050,6878628.02
-7,Camiseta Básica,vestuario,13938,40825,7191292.93
-8,Livro de História,livros,12374,37674,6466507.96
-8,Moletom,vestuario,11836,36036,6185355.44
-9,Camiseta Básica,vestuario,8234,25231,3088303.15
-9,Livro de Negócios,livros,7876,24134,2954029.1
-10,Livro de Negócios,livros,10406,30712,5705038.24
-10,Moletom,vestuario,10879,32108,5964358.16
-11,Monitor 24 Polegadas,informatica,13363,42113,154410619.6
-11,Smartphone Samsung Galaxy,eletronicos,12782,40282,147697114.4
-12,Aspirador de Pó,casa,11868,36524,72386539.32
-12,Notebook Lenovo,informatica,11352,34936,69239298.48
-13,Calça Jeans,vestuario,6402,20196,5379724.24
-13,Fone Bluetooth,eletronicos,6693,21114,5624257.16
-14,Bola de Futebol,esportes,8786,25829,10766821.41
-14,Tênis Casual,vestuario,8404,24706,10298698.74
-15,Calça Jeans,vestuario,12397,40273,7045675.33
-15,Camiseta Básica,vestuario,11858,38522,6739341.62
-16,Bicicleta,esportes,8303,33143,81280717.98
-16,Tênis Esportivo,esportes,7942,31702,77746773.72
-17,Livro de Tecnologia,livros,8349,29739,4090334.49
-17,Webcam Full HD,informatica,7986,28446,3912493.86
-18,Livro de Negócios,livros,13478,43171,3185435.14
-18,Livro de Tecnologia,livros,12892,41294,3046937.96
-19,Livro de Ficção,livros,9900,31064,2575171.72
-19,Livro de Tecnologia,livros,10350,32476,2692224.98
-20,Jaqueta,vestuario,8257,25714,9582588.9
-20,Smartwatch,eletronicos,7898,24596,9165954.6
-21,Bicicleta,esportes,10902,31625,61623172.05
-21,Livro de Ciência,livros,10428,30250,58943903.7
-22,Air Fryer,casa,7436,24266,8677382.56
-22,Camiseta Básica,vestuario,7774,25369,9071809.04
-23,Jogo de Panelas,casa,19215,48555,28730598.3
-24,Livro de Negócios,livros,6468,20900,22876121.84
-24,Monitor 24 Polegadas,informatica,6762,21850,23915945.56
-25,Bicicleta,esportes,10419,27186,59785663.18
-25,Livro de Negócios,livros,9966,26004,57186286.52
-26,Livro de Negócios,livros,9798,27784,11861334.6
-26,Tênis Casual,vestuario,9372,26576,11345624.4
-27,Aspirador de Pó,casa,10450,31878,21552599.42
-27,Moletom,vestuario,10925,33327,22532263.03
-28,Tênis Casual,vestuario,8910,24178,11235308.7
-28,Tênis Esportivo,esportes,9315,25277,11746004.55
-29,Caixa de Som Bluetooth,eletronicos,10450,30888,6575061.68
-29,Livro de Ficção,livros,10925,32292,6873928.12
-30,Cafeteira Elétrica,casa,10406,33220,15870175.64
-30,Liquidificador,casa,10879,34730,16591547.26
-31,Fone Bluetooth,eletronicos,12870,48928,21148389.24
-31,Webcam Full HD,informatica,13455,51152,22109679.66
-32,Livro de Ciência,livros,10235,35765,52769742.95
-32,Monitor 24 Polegadas,informatica,9790,34210,50475406.3
-33,Bola de Futebol,esportes,11418,32362,9107738.42
-33,Mochila Esportiva,esportes,11937,33833,9521726.53
-34,Fone Bluetooth,eletronicos,10304,23230,2305568.3
-34,Livro de Ficção,livros,9856,22220,2205326.2
-35,Livro de Ficção,livros,6446,15840,1017075.84
-35,Livro de História,livros,6739,16560,1063306.56
-36,Jogo de Panelas,casa,11462,32494,78512698.22
-36,Smart TV 50 Polegadas,eletronicos,11983,33971,82081457.23
-37,Camiseta Básica,vestuario,9460,29832,56780943.12
-37,Smartphone Samsung Galaxy,eletronicos,9890,31188,59361895.08
-38,Aspirador de Pó,casa,8932,24728,4873087.12
-38,Moletom,vestuario,9338,25852,5094591.08
-39,Jaqueta,vestuario,8786,25921,8203049.59
-39,Livro de Ficção,livros,8404,24794,7846395.26
-40,Jaqueta,vestuario,6424,19360,5050854.6
-40,Livro de Ficção,livros,6716,20240,5280438.9
-41,Calça Jeans,vestuario,10488,28244,4298133.28
-41,Mouse Logitech,informatica,10032,27016,4111257.92
-42,Cafeteira Elétrica,casa,6446,20878,15109699.66
-42,Webcam Full HD,informatica,6739,21827,15796504.19
-43,Bola de Futebol,esportes,10327,33051,5003737.4
-43,Livro de Negócios,livros,9878,31614,4786183.6
-44,Monitor 24 Polegadas,informatica,10281,28796,35210675.16
-44,Tênis Esportivo,esportes,9834,27544,33679776.24
-45,Fone Bluetooth,eletronicos,12489,44114,19668277.5
-45,Livro de História,livros,11946,42196,18813135.0
-46,Air Fryer,casa,11937,36317,13301398.41
-46,Fone Bluetooth,eletronicos,11418,34738,12723076.74
-47,Tênis Casual,vestuario,11960,35558,9793682.9
-47,Webcam Full HD,informatica,11440,34012,9367870.6
-48,Fone Bluetooth,eletronicos,26145,75375,14073547.5
-49,Bola de Futebol,esportes,15400,40876,7736742.64
-49,Moletom,vestuario,16100,42734,8088412.76
-50,Aspirador de Pó,casa,8294,20900,31617268.32
-50,Notebook Lenovo,informatica,8671,21850,33054416.88
-51,Aspirador de Pó,casa,4410,12789,6192305.91
-52,Kit de Halteres,esportes,6174,18522,3960929.7
-53,Jogo de Panelas,casa,4851,13230,9585399.6
-54,Livro de História,livros,5733,14553,830976.3
-55,Cafeteira Elétrica,casa,5292,14112,7042593.6
-56,Notebook Lenovo,informatica,3969,13230,54293935.5
-57,Jaqueta,vestuario,4851,18081,9720707.22
-58,Moletom,vestuario,3969,11466,2714346.18
-59,Cafeteira Elétrica,casa,6615,17640,15707185.2
-60,Caixa de Som Bluetooth,eletronicos,4851,17199,1920440.34
-61,Caixa de Som Bluetooth,eletronicos,1764,6174,4771205.46
-62,Bicicleta,esportes,4410,13671,63537886.44
-63,Jogo de Panelas,casa,4410,16758,12296182.5
-64,Livro de Negócios,livros,3969,11025,1674587.25
-65,Camiseta Básica,vestuario,2646,5733,454225.59
-66,Tênis Casual,vestuario,4851,14553,8245002.15
-67,Fone Bluetooth,eletronicos,4851,14553,1815195.69
-68,Tênis Esportivo,esportes,2646,7938,3184804.98
-69,Fone Bluetooth,eletronicos,1323,3969,2524442.76
-70,Livro de História,livros,6174,16758,2329697.16
-71,Moletom,vestuario,3528,14112,5442292.8
-72,Camiseta Básica,vestuario,1764,6174,232883.28
-73,Smart TV 50 Polegadas,eletronicos,3969,11466,46522836.36
-74,Air Fryer,casa,7056,21168,10614058.56
-75,Kit de Halteres,esportes,4851,12789,11937508.38
-76,Livro de História,livros,5733,15876,2256932.16
-77,Mouse Logitech,informatica,3087,11025,1746801.0
-78,Livro de Ficção,livros,4851,15876,1502345.88
-79,Liquidificador,casa,6174,16758,6403734.54
-80,Livro de Tecnologia,livros,3528,9702,1902950.28
-81,Liquidificador,casa,4410,12789,4778865.63
-82,Livro de Negócios,livros,4410,14553,1847648.88
-83,Smart TV 50 Polegadas,eletronicos,4410,15435,36170687.7
-84,Smartwatch,eletronicos,6615,22050,6917305.5
-85,Livro de História,livros,3969,11466,1052005.5
-86,Fone Bluetooth,eletronicos,3969,7938,5377995.0
-87,Smart TV 50 Polegadas,eletronicos,3528,9702,22772631.42
-88,Caixa de Som Bluetooth,eletronicos,5733,15876,7116734.52
-89,Tênis Esportivo,esportes,7056,17640,20349151.2
-90,Smartwatch,eletronicos,3528,11025,12260241.0
-91,Webcam Full HD,informatica,2646,4410,2362878.0
-92,Tênis Esportivo,esportes,3087,9702,5594173.2
-93,Teclado Mecânico,informatica,4410,13671,3987557.28
-94,Livro de Tecnologia,livros,2205,7938,1358429.94
-95,Livro de Ciência,livros,3528,11466,1548712.62
-96,Jogo de Panelas,casa,5733,18522,7505670.06
-97,Calça Jeans,vestuario,5292,13671,4576367.25
-98,Mochila Esportiva,esportes,4851,16758,4529687.4
-99,Webcam Full HD,informatica,3969,12789,3073452.48
-100,Jogo de Panelas,casa,4851,11466,2418179.4
-101,Aspirador de Pó,casa,4800,14800,14089008.0
-102,Moletom,vestuario,4000,11600,4286316.0
-103,Smartphone Samsung Galaxy,eletronicos,3600,12800,49122944.0
-104,Webcam Full HD,informatica,5600,17200,6313432.0
-105,Livro de Negócios,livros,2000,4400,239624.0
-106,Notebook Lenovo,informatica,3610,12996,80013382.92
-107,Jogo de Panelas,casa,3971,12635,5914569.85
-108,Mouse Logitech,informatica,1805,4693,1969088.94
-109,Caixa de Som Bluetooth,eletronicos,4693,15884,9058009.84
-110,Bola de Futebol,esportes,3971,12996,1088674.92
-111,Livro de Negócios,livros,4860,15876,2801320.2
-112,Notebook Lenovo,informatica,1296,5184,17872462.08
-113,Smart TV 50 Polegadas,eletronicos,3240,11016,26288141.76
-114,Caixa de Som Bluetooth,eletronicos,3564,10044,2709971.64
-115,Fone Bluetooth,eletronicos,3240,11988,9514995.48
-116,Smartphone Samsung Galaxy,eletronicos,4046,12427,40679038.88
-117,Tênis Casual,vestuario,2601,9248,3642879.68
-118,Tênis Casual,vestuario,2601,7514,1373934.9
-119,Fone Bluetooth,eletronicos,2023,8959,2452078.3
-120,Jogo de Panelas,casa,3179,10693,7334221.77
-121,Livro de Ciência,livros,1792,5376,307776.0
-122,Livro de História,livros,2560,5888,503895.04
-123,Jogo de Panelas,casa,2560,7936,7049866.24
-124,Air Fryer,casa,2304,9216,4973875.2
-125,Livro de Ficção,livros,3584,12032,577896.96
-126,Livro de Ficção,livros,2475,9675,306310.5
-127,Livro de História,livros,1575,6750,591705.0
-128,Jaqueta,vestuario,2925,7425,1197949.5
-129,Fone Bluetooth,eletronicos,2025,5850,845500.5
-130,Smartphone Samsung Galaxy,eletronicos,2250,7200,15212592.0
-131,Aspirador de Pó,casa,1568,5684,3127848.36
-132,Calça Jeans,vestuario,2156,7252,1148716.8
-133,Notebook Lenovo,informatica,2940,8232,53376288.0
-134,Webcam Full HD,informatica,1764,5096,1186144.96
-135,Moletom,vestuario,1372,4116,793811.76
-136,Mochila Esportiva,esportes,2366,7267,3497243.75
-137,Smartwatch,eletronicos,1352,3042,1428888.24
-138,Tênis Casual,vestuario,2028,6591,3442874.76
-139,Mouse Logitech,informatica,1352,4225,950202.5
-140,Mouse Logitech,informatica,1352,3718,656412.9
-141,Camiseta Básica,vestuario,1152,3600,424008.0
-142,Teclado Mecânico,informatica,1872,6048,4805196.48
-143,Tênis Esportivo,esportes,1296,4176,2347329.6
-144,Teclado Mecânico,informatica,1440,4320,1265587.2
-145,Livro de Negócios,livros,1440,5328,724021.92
-146,Jogo de Panelas,casa,1452,4235,2964288.25
-147,Moletom,vestuario,726,3025,1003059.75
-148,Cafeteira Elétrica,casa,847,2662,444713.72
-149,Camiseta Básica,vestuario,1815,5808,305965.44
-150,Fone Bluetooth,eletronicos,1210,3388,1638064.12
-151,Livro de Ficção,livros,500,1700,58582.0
-152,Cafeteira Elétrica,casa,700,1500,1020105.0
-153,Liquidificador,casa,1100,2900,613843.0
-154,Caixa de Som Bluetooth,eletronicos,1400,4300,2472457.0
-155,Liquidificador,casa,1300,3400,1005244.0
-156,Teclado Mecânico,informatica,1053,3726,3141204.3
-157,Jogo de Panelas,casa,405,1539,1291221.0
-158,Moletom,vestuario,972,3078,867595.86
-159,Livro de Ciência,livros,729,2187,138174.66
-160,Livro de História,livros,891,2511,232041.51
-161,Livro de História,livros,1152,3264,222637.44
-162,Bicicleta,esportes,256,832,2550745.6
-163,Bola de Futebol,esportes,704,2304,158284.8
-164,Fone Bluetooth,eletronicos,576,1600,980560.0
-165,Cafeteira Elétrica,casa,512,1408,715630.08
-166,Cafeteira Elétrica,casa,637,1568,1002908.48
-167,Notebook Lenovo,informatica,294,686,3080812.28
-168,Bicicleta,esportes,392,882,956872.98
-169,Mochila Esportiva,esportes,539,1176,563351.04
-170,Livro de História,livros,588,1617,62432.37
-171,Air Fryer,casa,324,612,199701.72
-172,Livro de História,livros,324,1044,92769.84
-173,Livro de Ciência,livros,432,1764,72482.76
-174,Notebook Lenovo,informatica,360,720,3000722.4
-175,Caixa de Som Bluetooth,eletronicos,360,1008,899226.72
-176,Liquidificador,casa,175,550,158114.0
-177,Caixa de Som Bluetooth,eletronicos,225,675,484967.25
-178,Livro de Ficção,livros,350,1025,73574.5
-179,Cafeteira Elétrica,casa,225,850,359431.0
-180,Smartphone Samsung Galaxy,eletronicos,275,850,1770006.0
-181,Caixa de Som Bluetooth,eletronicos,224,656,178464.8
-182,Smart TV 50 Polegadas,eletronicos,192,528,2137972.32
-183,Bola de Futebol,esportes,128,480,42494.4
-184,Mouse Logitech,informatica,160,416,57591.04
-185,Jogo de Panelas,casa,96,320,195148.8
-186,Mochila Esportiva,esportes,135,360,146689.2
-187,Fone Bluetooth,eletronicos,45,117,18980.91
-188,Mochila Esportiva,esportes,117,297,100097.91
-189,Cafeteira Elétrica,casa,90,234,178860.24
-190,Moletom,vestuario,63,171,20661.93
-191,Calça Jeans,vestuario,44,108,16989.48
-192,Air Fryer,casa,20,60,22370.4
-193,Monitor 24 Polegadas,informatica,40,132,133254.0
-194,Tênis Esportivo,esportes,36,132,151242.96
-195,Camiseta Básica,vestuario,60,180,15865.2
-196,Smartwatch,eletronicos,9,30,24905.4
-197,Smartphone Samsung Galaxy,eletronicos,11,34,59425.2
-198,Calça Jeans,vestuario,14,42,6975.36
-199,Aspirador de Pó,casa,3,9,4663.08
-200,Livro de Ciência,livros,13,35,4047.05
+1,Mochila Esportiva,esportes,34768,102377,46933076.79
+1,Smartwatch,eletronicos,33920,99880,45788367.6
+2,Fone Bluetooth,eletronicos,43840,129920,86429849.6
+2,Teclado Mecânico,informatica,44936,133168,88590595.84
+3,Cafeteira Elétrica,casa,30680,83840,42552243.2
+3,Jogo de Panelas,casa,31447,85936,43616049.28
+4,Calça Jeans,vestuario,24928,81344,32787434.32
+4,Fone Bluetooth,eletronicos,24320,79360,31987740.8
+5,Calça Jeans,vestuario,27720,84680,36538596.4
+5,Jogo de Panelas,casa,28413,86797,37452061.31
+6,Livro de Ficção,livros,30520,85160,6215919.6
+6,Mochila Esportiva,esportes,31283,87289,6371317.59
+7,Bola de Futebol,esportes,43680,127880,22618211.6
+7,Camiseta Básica,vestuario,44772,131077,23183666.89
+8,Livro de História,livros,39770,121032,20900074.72
+8,Moletom,vestuario,38800,118080,20390316.8
+9,Camiseta Básica,vestuario,26486,81139,9975707.95
+9,Livro de Negócios,livros,25840,79160,9732398.0
+10,Livro de Negócios,livros,34040,100480,18528409.6
+10,Moletom,vestuario,34891,102992,18991619.84
+11,Monitor 24 Polegadas,informatica,43009,135587,498483731.8
+11,Smartphone Samsung Galaxy,eletronicos,41960,132280,486325592.0
+12,Aspirador de Pó,casa,38130,117506,233908098.78
+12,Notebook Lenovo,informatica,37200,114640,228203023.2
+13,Calça Jeans,vestuario,21000,66240,17544025.6
+13,Fone Bluetooth,eletronicos,21525,67896,17982626.24
+14,Bola de Futebol,esportes,28208,82943,34756497.45
+14,Tênis Casual,vestuario,27520,80920,33908778.0
+15,Calça Jeans,vestuario,39811,129355,22540231.75
+15,Camiseta Básica,vestuario,38840,126200,21990470.0
+16,Bicicleta,esportes,26609,106313,259158225.12
+16,Tênis Esportivo,esportes,25960,103720,252837292.8
+17,Livro de Tecnologia,livros,26691,95079,13162661.73
+17,Webcam Full HD,informatica,26040,92760,12841621.2
+18,Livro de Negócios,livros,43214,138211,10176007.3
+18,Livro de Tecnologia,livros,42160,134840,9927812.0
+19,Livro de Ficção,livros,32400,101840,8413782.4
+19,Livro de Tecnologia,livros,33210,104386,8624126.96
+20,Jaqueta,vestuario,26527,82738,30907594.98
+20,Smartwatch,eletronicos,25880,80720,30153751.2
+21,Bicicleta,esportes,34932,101393,195915953.49
+21,Livro de Ciência,livros,34080,98920,191137515.6
+22,Air Fryer,casa,24320,79400,28637584.0
+22,Camiseta Básica,vestuario,24928,81385,29353523.6
+23,Jogo de Panelas,casa,62289,157383,93294145.98
+24,Livro de Negócios,livros,21120,68240,74190833.6
+24,Monitor 24 Polegadas,informatica,21648,69946,76045604.44
+25,Bicicleta,esportes,33333,86838,189998789.62
+25,Livro de Negócios,livros,32520,84720,185364672.8
+26,Livro de Negócios,livros,31488,89380,38348226.6
+26,Tênis Casual,vestuario,30720,87200,37412904.0
+27,Aspirador de Pó,casa,34120,104040,70771259.6
+27,Moletom,vestuario,34973,106641,72540541.09
+28,Tênis Casual,vestuario,29160,79240,36978639.6
+28,Tênis Esportivo,esportes,29889,81221,37903105.59
+29,Caixa de Som Bluetooth,eletronicos,34120,100800,21652352.0
+29,Livro de Ficção,livros,34973,103320,22193660.8
+30,Cafeteira Elétrica,casa,34040,108640,51975281.6
+30,Liquidificador,casa,34891,111356,53274663.64
+31,Fone Bluetooth,eletronicos,42120,160240,68896917.6
+31,Webcam Full HD,informatica,43173,164246,70619340.54
+32,Livro de Ciência,livros,33005,115415,170949801.35
+32,Monitor 24 Polegadas,informatica,32200,112600,166780294.0
+33,Bola de Futebol,esportes,37320,105640,29637986.0
+33,Mochila Esportiva,esportes,38253,108281,30378935.65
+34,Fone Bluetooth,eletronicos,33128,74620,7389930.2
+34,Livro de Ficção,livros,32320,72800,7209688.0
+35,Livro de Ficção,livros,21080,51840,3335193.6
+35,Livro de História,livros,21607,53136,3418573.44
+36,Jogo de Panelas,casa,37400,105880,254865038.0
+36,Smart TV 50 Polegadas,eletronicos,38335,108527,261236663.95
+37,Camiseta Básica,vestuario,30880,97440,184115995.2
+37,Smartphone Samsung Galaxy,eletronicos,31652,99876,188718895.08
+38,Aspirador de Pó,casa,29200,80960,16020976.0
+38,Moletom,vestuario,29930,82984,16421500.4
+39,Jaqueta,vestuario,28208,83107,26089723.93
+39,Livro de Ficção,livros,27520,81080,25453389.2
+40,Jaqueta,vestuario,21040,63280,16672372.8
+40,Livro de Ficção,livros,21566,64862,17089182.12
+41,Calça Jeans,vestuario,33456,90200,13745578.0
+41,Mouse Logitech,informatica,32640,88000,13410320.0
+42,Cafeteira Elétrica,casa,21080,68200,49479694.0
+42,Webcam Full HD,informatica,21607,69905,50716686.35
+43,Bola de Futebol,esportes,33169,106149,16076977.4
+43,Livro de Negócios,livros,32360,103560,15684856.0
+44,Monitor 24 Polegadas,informatica,33087,92660,112708319.4
+44,Tênis Esportivo,esportes,32280,90400,109959336.0
+45,Fone Bluetooth,eletronicos,39975,141368,62634286.32
+45,Livro de História,livros,39000,137920,61106620.8
+46,Air Fryer,casa,38253,116399,42416676.69
+46,Fone Bluetooth,eletronicos,37320,113560,41382123.6
+47,Tênis Casual,vestuario,38294,113570,31234845.5
+47,Webcam Full HD,informatica,37360,110800,30473020.0
+48,Fone Bluetooth,eletronicos,84969,245025,45639409.5
+49,Bola de Futebol,esportes,50320,133360,25328555.2
+49,Moletom,vestuario,51578,136694,25961769.08
+50,Aspirador de Pó,casa,27320,68960,103630713.6
+50,Notebook Lenovo,informatica,28003,70684,106221481.44
+51,Aspirador de Pó,casa,15210,44109,21357136.71
+52,Kit de Halteres,esportes,21294,63882,13661165.7
+53,Jogo de Panelas,casa,16731,45630,33059847.6
+54,Livro de História,livros,19773,50193,2866020.3
+55,Cafeteira Elétrica,casa,18252,48672,24289761.6
+56,Notebook Lenovo,informatica,13689,45630,187258675.5
+57,Jaqueta,vestuario,16731,62361,33526520.82
+58,Moletom,vestuario,13689,39546,9361724.58
+59,Cafeteira Elétrica,casa,22815,60840,54173761.2
+60,Caixa de Som Bluetooth,eletronicos,16731,59319,6623559.54
+61,Caixa de Som Bluetooth,eletronicos,6084,21294,16455790.26
+62,Bicicleta,esportes,15210,47151,219140873.64
+63,Jogo de Panelas,casa,15210,57798,42409282.5
+64,Livro de Negócios,livros,13689,38025,5775617.25
+65,Camiseta Básica,vestuario,9126,19773,1566614.79
+66,Tênis Casual,vestuario,16731,50193,28436844.15
+67,Fone Bluetooth,eletronicos,16731,50193,6260572.89
+68,Tênis Esportivo,esportes,9126,27378,10984327.38
+69,Fone Bluetooth,eletronicos,4563,13689,8706751.56
+70,Livro de História,livros,21294,57798,8035077.96
+71,Moletom,vestuario,12168,48672,18770356.8
+72,Camiseta Básica,vestuario,6084,21294,803209.68
+73,Smart TV 50 Polegadas,eletronicos,13689,39546,160456313.16
+74,Air Fryer,casa,24336,73008,36607671.36
+75,Kit de Halteres,esportes,16731,44109,41172222.78
+76,Livro de História,livros,19773,54756,7784112.96
+77,Mouse Logitech,informatica,10647,38025,6024681.0
+78,Livro de Ficção,livros,16731,54756,5181560.28
+79,Liquidificador,casa,21294,57798,22086349.74
+80,Livro de Tecnologia,livros,12168,33462,6563236.68
+81,Liquidificador,casa,15210,44109,16482210.03
+82,Livro de Negócios,livros,15210,50193,6372503.28
+83,Smart TV 50 Polegadas,eletronicos,15210,53235,124751963.7
+84,Smartwatch,eletronicos,22815,76050,23857645.5
+85,Livro de História,livros,13689,39546,3628345.5
+86,Fone Bluetooth,eletronicos,13689,27378,18548595.0
+87,Smart TV 50 Polegadas,eletronicos,12168,33462,78542341.02
+88,Caixa de Som Bluetooth,eletronicos,19773,54756,24545472.12
+89,Tênis Esportivo,esportes,24336,60840,70183807.2
+90,Smartwatch,eletronicos,12168,38025,42285321.0
+91,Webcam Full HD,informatica,9126,15210,8149518.0
+92,Tênis Esportivo,esportes,10647,33462,19294189.2
+93,Teclado Mecânico,informatica,15210,47151,13753003.68
+94,Livro de Tecnologia,livros,7605,27378,4685197.14
+95,Livro de Ciência,livros,12168,39546,5341478.22
+96,Jogo de Panelas,casa,19773,63882,25886902.86
+97,Calça Jeans,vestuario,18252,47151,15783797.25
+98,Mochila Esportiva,esportes,16731,57798,15622799.4
+99,Webcam Full HD,informatica,13689,44109,10600274.88
+100,Jogo de Panelas,casa,16731,39546,8340251.4
+101,Aspirador de Pó,casa,17328,53428,50861318.88
+102,Moletom,vestuario,14440,41876,15473600.76
+103,Smartphone Samsung Galaxy,eletronicos,12996,46208,177333827.84
+104,Webcam Full HD,informatica,20216,62092,22791489.52
+105,Livro de Negócios,livros,7220,15884,865042.64
+106,Notebook Lenovo,informatica,13690,49284,303430252.68
+107,Jogo de Panelas,casa,15059,47915,22429490.65
+108,Mouse Logitech,informatica,6845,17797,7467265.26
+109,Caixa de Som Bluetooth,eletronicos,17797,60236,34350181.36
+110,Bola de Futebol,esportes,15059,49284,4128520.68
+111,Livro de Negócios,livros,19440,63504,11205280.8
+112,Notebook Lenovo,informatica,5184,20736,71489848.32
+113,Smart TV 50 Polegadas,eletronicos,12960,44064,105152567.04
+114,Caixa de Som Bluetooth,eletronicos,14256,40176,10839886.56
+115,Fone Bluetooth,eletronicos,12960,47952,38059981.92
+116,Smartphone Samsung Galaxy,eletronicos,17150,52675,172428452.0
+117,Tênis Casual,vestuario,11025,39200,15441272.0
+118,Tênis Casual,vestuario,11025,31850,5823772.5
+119,Fone Bluetooth,eletronicos,8575,37975,10393757.5
+120,Jogo de Panelas,casa,13475,45325,31087964.25
+121,Livro de Ciência,livros,8092,24276,1389801.0
+122,Livro de História,livros,11560,26588,2275401.04
+123,Jogo de Panelas,casa,11560,35836,31834552.24
+124,Air Fryer,casa,10404,41616,22460155.2
+125,Livro de Ficção,livros,16184,54332,2609565.96
+126,Livro de Ficção,livros,11979,46827,1482542.82
+127,Livro de História,livros,7623,32670,2863852.2
+128,Jaqueta,vestuario,14157,35937,5798075.58
+129,Fone Bluetooth,eletronicos,9801,28314,4092222.42
+130,Smartphone Samsung Galaxy,eletronicos,10890,34848,73628945.28
+131,Aspirador de Pó,casa,8192,29696,16341411.84
+132,Calça Jeans,vestuario,11264,37888,6001459.2
+133,Notebook Lenovo,informatica,15360,43008,278863872.0
+134,Webcam Full HD,informatica,9216,26624,6197002.24
+135,Moletom,vestuario,7168,21504,4147261.44
+136,Mochila Esportiva,esportes,13454,41323,19886693.75
+137,Smartwatch,eletronicos,7688,17298,8125216.56
+138,Tênis Casual,vestuario,11532,37479,19577530.44
+139,Mouse Logitech,informatica,7688,24025,5403222.5
+140,Mouse Logitech,informatica,7688,21142,3732620.1
+141,Camiseta Básica,vestuario,7200,22500,2650050.0
+142,Teclado Mecânico,informatica,11700,37800,30032478.0
+143,Tênis Esportivo,esportes,8100,26100,14670810.0
+144,Teclado Mecânico,informatica,9000,27000,7909920.0
+145,Livro de Negócios,livros,9000,33300,4525137.0
+146,Jogo de Panelas,casa,10092,29435,20603028.25
+147,Moletom,vestuario,5046,21025,6971679.75
+148,Cafeteira Elétrica,casa,5887,18502,3090944.12
+149,Camiseta Básica,vestuario,12615,40368,2126586.24
+150,Fone Bluetooth,eletronicos,8410,23548,11385222.52
+151,Livro de Ficção,livros,3920,13328,459282.88
+152,Cafeteira Elétrica,casa,5488,11760,7997623.2
+153,Liquidificador,casa,8624,22736,4812529.12
+154,Caixa de Som Bluetooth,eletronicos,10976,33712,19384062.88
+155,Liquidificador,casa,10192,26656,7881112.96
+156,Teclado Mecânico,informatica,9477,33534,28270838.7
+157,Jogo de Panelas,casa,3645,13851,11620989.0
+158,Moletom,vestuario,8748,27702,7808362.74
+159,Livro de Ciência,livros,6561,19683,1243571.94
+160,Livro de História,livros,8019,22599,2088373.59
+161,Livro de História,livros,12168,34476,2351607.96
+162,Bicicleta,esportes,2704,8788,26942250.4
+163,Bola de Futebol,esportes,7436,24336,1671883.2
+164,Fone Bluetooth,eletronicos,6084,16900,10357165.0
+165,Cafeteira Elétrica,casa,5408,14872,7558842.72
+166,Cafeteira Elétrica,casa,8125,20000,12792200.0
+167,Notebook Lenovo,informatica,3750,8750,39296075.0
+168,Bicicleta,esportes,5000,11250,12205012.5
+169,Mochila Esportiva,esportes,6875,15000,7185600.0
+170,Livro de História,livros,7500,20625,796331.25
+171,Air Fryer,casa,5184,9792,3195227.52
+172,Livro de História,livros,5184,16704,1484317.44
+173,Livro de Ciência,livros,6912,28224,1159724.16
+174,Notebook Lenovo,informatica,5760,11520,48011558.4
+175,Caixa de Som Bluetooth,eletronicos,5760,16128,14387627.52
+176,Liquidificador,casa,3703,11638,3345692.24
+177,Caixa de Som Bluetooth,eletronicos,4761,14283,10261907.01
+178,Livro de Ficção,livros,7406,21689,1556836.42
+179,Cafeteira Elétrica,casa,4761,17986,7605559.96
+180,Smartphone Samsung Galaxy,eletronicos,5819,17986,37453326.96
+181,Caixa de Som Bluetooth,eletronicos,6776,19844,5398560.2
+182,Smart TV 50 Polegadas,eletronicos,5808,15972,64673662.68
+183,Bola de Futebol,esportes,3872,14520,1285455.6
+184,Mouse Logitech,informatica,4840,12584,1742128.96
+185,Jogo de Panelas,casa,2904,9680,5903251.2
+186,Mochila Esportiva,esportes,6615,17640,7187770.8
+187,Fone Bluetooth,eletronicos,2205,5733,930064.59
+188,Mochila Esportiva,esportes,5733,14553,4904797.59
+189,Cafeteira Elétrica,casa,4410,11466,8764151.76
+190,Moletom,vestuario,3087,8379,1012434.57
+191,Calça Jeans,vestuario,4400,10800,1698948.0
+192,Air Fryer,casa,2000,6000,2237040.0
+193,Monitor 24 Polegadas,informatica,4000,13200,13325400.0
+194,Tênis Esportivo,esportes,3600,13200,15124296.0
+195,Camiseta Básica,vestuario,6000,18000,1586520.0
+196,Smartwatch,eletronicos,3249,10830,8990849.4
+197,Smartphone Samsung Galaxy,eletronicos,3971,12274,21452497.2
+198,Calça Jeans,vestuario,5054,15162,2518104.96
+199,Aspirador de Pó,casa,1083,3249,1683371.88
+200,Livro de Ciência,livros,4693,12635,1460985.05
+201,Livro de Ficção,livros,3564,11988,764474.76
+202,Monitor 24 Polegadas,informatica,3240,8748,18493009.56
+203,Mouse Logitech,informatica,3888,15876,5269244.4
+204,Livro de Ciência,livros,3240,11340,1068568.2
+205,Caixa de Som Bluetooth,eletronicos,2268,7128,1592537.76
+206,Smartwatch,eletronicos,3468,10115,13658790.25
+207,Cafeteira Elétrica,casa,2023,5491,1259086.3
+208,Cafeteira Elétrica,casa,4624,13583,14364837.48
+209,Jogo de Panelas,casa,3179,9248,3993656.32
+210,Smartphone Samsung Galaxy,eletronicos,1156,3468,10840066.32
+211,Liquidificador,casa,1536,3328,1839651.84
+212,Livro de Ficção,livros,1792,4096,399769.6
+213,Kit de Halteres,esportes,3072,10496,2432552.96
+214,Liquidificador,casa,4096,13568,4172567.04
+215,Calça Jeans,vestuario,2304,5632,968478.72
+216,Bicicleta,esportes,2250,8100,18756279.0
+217,Fone Bluetooth,eletronicos,2475,7875,4706415.0
+218,Moletom,vestuario,1800,6750,1421077.5
+219,Monitor 24 Polegadas,informatica,2250,6750,13322812.5
+220,Smartwatch,eletronicos,2475,7425,1537791.75
+221,Caixa de Som Bluetooth,eletronicos,1568,4900,3407460.0
+222,Smartphone Samsung Galaxy,eletronicos,2744,7252,13848274.16
+223,Cafeteira Elétrica,casa,1764,5096,1489356.96
+224,Calça Jeans,vestuario,2156,6860,1042034.0
+225,Caixa de Som Bluetooth,eletronicos,1568,3724,2962069.6
+226,Caixa de Som Bluetooth,eletronicos,1859,5239,2021625.32
+227,Tênis Casual,vestuario,1859,5746,3513621.54
+228,Calça Jeans,vestuario,1014,2535,547078.35
+229,Livro de Negócios,livros,1521,5408,894483.2
+230,Smartwatch,eletronicos,2197,6253,6007257.1
+231,Fone Bluetooth,eletronicos,1584,4032,2870904.96
+232,Bicicleta,esportes,1152,4176,17097546.24
+233,Webcam Full HD,informatica,1152,3456,1495272.96
+234,Mochila Esportiva,esportes,1440,4896,612538.56
+235,Calça Jeans,vestuario,1872,6336,1126920.96
+236,Smart TV 50 Polegadas,eletronicos,1331,4598,18971669.86
+237,Notebook Lenovo,informatica,1089,3267,22077144.54
+238,Mochila Esportiva,esportes,1089,2783,1156280.84
+239,Livro de Negócios,livros,1331,3751,610475.25
+240,Monitor 24 Polegadas,informatica,1210,3267,6341835.06
+241,Caixa de Som Bluetooth,eletronicos,800,2300,648922.0
+242,Mochila Esportiva,esportes,1000,2600,347932.0
+243,Livro de Negócios,livros,800,2100,353829.0
+244,Calça Jeans,vestuario,1300,3900,1006668.0
+245,Jogo de Panelas,casa,1100,3200,873280.0
+246,Smart TV 50 Polegadas,eletronicos,891,3159,8095727.25
+247,Aspirador de Pó,casa,1053,3483,1546765.47
+248,Moletom,vestuario,1134,3726,450846.0
+249,Liquidificador,casa,324,567,282672.18
+250,Livro de História,livros,648,1782,132634.26
+251,Notebook Lenovo,informatica,704,2048,9676922.88
+252,Tênis Casual,vestuario,768,2496,464280.96
+253,Bicicleta,esportes,1024,3200,13037760.0
+254,Air Fryer,casa,192,384,130621.44
+255,Aspirador de Pó,casa,512,1472,647959.68
+256,Kit de Halteres,esportes,539,1568,1511003.2
+257,Livro de Ciência,livros,343,882,51499.98
+258,Cafeteira Elétrica,casa,539,1421,720844.88
+259,Caixa de Som Bluetooth,eletronicos,294,882,211309.56
+260,Livro de Ficção,livros,735,2107,146773.62
+261,Air Fryer,casa,396,1188,377225.64
+262,Fone Bluetooth,eletronicos,432,1656,586439.28
+263,Camiseta Básica,vestuario,360,1224,136108.8
+264,Liquidificador,casa,288,756,91218.96
+265,Monitor 24 Polegadas,informatica,324,1080,2222964.0
+266,Caixa de Som Bluetooth,eletronicos,275,650,368335.5
+267,Webcam Full HD,informatica,250,500,309460.0
+268,Moletom,vestuario,275,650,243763.0
+269,Tênis Casual,vestuario,225,700,351351.0
+270,Smartphone Samsung Galaxy,eletronicos,225,525,1316962.5
+271,Tênis Esportivo,esportes,144,368,151472.48
+272,Bicicleta,esportes,80,160,626139.2
+273,Cafeteira Elétrica,casa,208,736,169618.56
+274,Smart TV 50 Polegadas,eletronicos,208,752,3199180.96
+275,Monitor 24 Polegadas,informatica,160,448,445518.08
+276,Mouse Logitech,informatica,117,369,60202.35
+277,Tênis Casual,vestuario,72,207,132771.87
+278,Livro de Negócios,livros,117,297,39913.83
+279,Monitor 24 Polegadas,informatica,63,144,163424.16
+280,Aspirador de Pó,casa,81,198,239237.46
+281,Smartphone Samsung Galaxy,eletronicos,44,128,561896.96
+282,Bola de Futebol,esportes,24,88,10343.52
+283,Livro de Negócios,livros,36,84,4953.48
+284,Caixa de Som Bluetooth,eletronicos,48,152,109470.4
+285,Monitor 24 Polegadas,informatica,48,124,213618.52
+286,Tênis Casual,vestuario,13,36,15370.56
+287,Notebook Lenovo,informatica,10,28,75219.2
+288,Cafeteira Elétrica,casa,4,6,6529.56
+289,Livro de História,livros,13,37,1782.29
+290,Aspirador de Pó,casa,10,34,50670.88

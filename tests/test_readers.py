@@ -1,11 +1,12 @@
 from pathlib import Path
 
 from src.models.models import Customer
-from src.readers.json_reader import read_json
+from src.readers.json_reader import JSONReader
 
 
 def test_read_customers():
-    customers = read_json(
+    reader = JSONReader()
+    customers = reader.read(
         Path("data/bronze/customers.json"),
         Customer,
     )

@@ -3,12 +3,12 @@ from pathlib import Path
 from src.generators.customer_generator import generate_customer
 from src.generators.order_generator import generate_order
 from src.generators.product_generator import generate_product
-from src.loaders.json_loader import save_json
+from src.loaders.json_loader import JSONLoader
 from src.pipeline.id_manager import IDManager
-
 
 BRONZE_PATH = Path("data/bronze")
 ID_MANAGER = IDManager(Path("data/metadata/ids.json"))
+JSON_LOADER = JSONLoader()
 
 
 def run_initial_load(
@@ -37,6 +37,6 @@ def run_initial_load(
         for _ in range(number_of_orders)
     ]
 
-    save_json(customers, BRONZE_PATH / "customers.json")
-    save_json(products, BRONZE_PATH / "products.json")
-    save_json(orders, BRONZE_PATH / "orders.json")
+    JSON_LOADER.save(customers, BRONZE_PATH / "customers.json")
+    JSON_LOADER.save(products, BRONZE_PATH / "products.json")
+    JSON_LOADER.save(orders, BRONZE_PATH / "orders.json")
