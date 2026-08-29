@@ -1,7 +1,9 @@
-.venv
 .git
-.github
+.gitignore
+.env
 __pycache__
-.pytest_cache
-*.pyc
-data
+.venv
+data/
+*.duckdb
+*.db
+README.md

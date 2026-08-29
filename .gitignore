@@ -1,31 +1,29 @@
-# Ambiente virtual
-.venv/
+# Credenciais e Variáveis de Ambiente
+.env
+*.env
 
-# Cache do Python
+# Cache do Python e Ambientes Virtuais
 __pycache__/
 *.py[cod]
 *$py.class
+.venv/
+venv/
+.poetry/
 
-# Ferramentas
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
+# Dados locais
+data/bronze/*
+data/silver/*
+data/gold/*
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
 
-# Arquivos de ambiente
-.env
-.env.*
+# Arquivos de Bancos Locais / DuckDB
+*.db
+*.duckdb
+*.sqlite3
 
-# Jupyter
-.ipynb_checkpoints/
-
-# Sistema operacional
-.DS_Store
-Thumbs.db
-
-# IDE
+# Arquivos de IDEs e Sistema
 .vscode/
 .idea/
-
-# Arquivos temporários
-*.tmp
-*.temp
+.DS_Store
