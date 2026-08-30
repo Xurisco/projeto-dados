@@ -370,7 +370,8 @@ Com os dados carregados, acesse a interface no navegador:
 ```
 
 **O que você verá:**
---------COLOCAR AS PRINTS DO DASHBOARD----------
+<img src="home/xurisco/Documents/prints/Screenshot From 2026-08-29 18-23-24.png" alt="Print da aplicação" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">   
+<img src="home/xurisco/Documents/prints/Screenshot From 2026-08-29 18-23-45.png" alt="Print da aplicação" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">  
 
 
 ---
