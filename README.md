@@ -370,8 +370,12 @@ Com os dados carregados, acesse a interface no navegador:
 ```
 
 **O que você verá:**
-<img src="home/xurisco/Documents/prints/Screenshot From 2026-08-29 18-23-24.png" alt="Print da aplicação" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">   
-<img src="home/xurisco/Documents/prints/Screenshot From 2026-08-29 18-23-45.png" alt="Print da aplicação" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">  
+## 📸 Screenshots
+
+<img src="https://github.com/user-attachments/assets/dd7f6a04-01b5-422a-93c6-0f37f35ec68d" alt="Screenshot 1" width="800" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px;">
+
+<img src="https://github.com/user-attachments/assets/5f094342-e8d7-43d9-81ad-e8340df5fee6" alt="Screenshot 2" width="800" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">   
+
 
 
 ---
