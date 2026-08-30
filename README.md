@@ -33,63 +33,8 @@ O sistema foi construído com **separação rigorosa de responsabilidades** (Cle
 
 ## 🏗️ Arquitetura da Solução
 
-```mermaid
-graph TD
-    subgraph Ingestion["🔄 1. Ingestão & Orquestração"]
-        S1["Motor de Ingestão<br/>(main.py - Python)"]
-        Gen["Generators<br/>(Produtos, Clientes, Pedidos)"]
-    end
+<img src="https://github.com/user-attachments/assets/ee3dda6b-148d-4911-9514-42052dcc51ea" alt="ChatGPT Image" width="800" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px;">   
 
-    subgraph Cloud["☁️ 2. Data Lakehouse - Azure"]
-        Bronze["Bronze Container<br/>(Raw Data - JSON)"]
-        Silver["Silver Container<br/>(Validated Data)"]
-        Gold["Gold Container<br/>(Aggregated - Parquet)"]
-    end
-
-    subgraph RDBMS["🗄️ 3. Serving Layer"]
-        PG["PostgreSQL 15<br/>(OLTP Analítico)"]
-    end
-
-    subgraph Analytics["📊 4. Consumo & Analytics"]
-        ST["Streamlit Dashboard<br/>(Dark Mode + Plotly)"]
-    end
-
-    subgraph Monitoring["🎯 5. Business Intelligence"]
-        Insights["Business Insights Engine<br/>(Alerts & Anomalies)"]
-    end
-
-    Gen -->|Gera Massa de Dados| S1
-    S1 -->|Extração & Validação| Bronze
-    Bronze -->|Transformação Silver| Silver
-    Silver -->|Agregação Gold| Gold
-    Gold -->|Persistência Analítica| PG
-    PG -->|Consultas Otimizadas via SQLAlchemy| ST
-    ST -->|Dados Filtrados| Insights
-    Insights -->|KPIs & Alertas| ST
-
-    classDef source fill:#38bdf8,stroke:#0f172a,stroke-width:2px,color:#ffffff,font-weight:bold
-    classDef cloud fill:#0284c7,stroke:#bae6fd,stroke-width:2px,color:#ffffff,font-weight:bold
-    classDef db fill:#10b981,stroke:#d1fae5,stroke-width:2px,color:#0b0f19,font-weight:bold
-    classDef app fill:#f59e0b,stroke:#fef3c7,stroke-width:2px,color:#0b0f19,font-weight:bold
-    classDef monitor fill:#ec4899,stroke:#fbcfe8,stroke-width:2px,color:#ffffff,font-weight:bold
-
-    class S1,Gen source
-    class Bronze,Silver,Gold cloud
-    class PG db
-    class ST app
-    class Insights monitor
-```
-
-**Fluxo de Dados:**
-1. **Ingestão**: Generators criam massa de dados mockada (produtos, clientes, pedidos).
-2. **Bronze (Raw)**: Dados extraídos em formato JSON bruto, sem transformação.
-3. **Silver (Clean)**: Validação, limpeza e enriquecimento usando Pydantic e regras de negócio.
-4. **Gold (Aggregated)**: Camada de agregação — sumários financeiros, margens, lucros (formato Parquet otimizado).
-5. **Serving (PostgreSQL)**: Persistência em RDBMS para consultas analíticas de baixa latência.
-6. **Dashboard (Streamlit)**: Interface interativa com filtros, gráficos Plotly e insights automáticos.
-7. **Insights**: Motor de anomalias que dispara alertas baseado em regras preditivas.
-
----
 
 ## ⚙️ Tecnologias Envolvidadas
 
